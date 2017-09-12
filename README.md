@@ -12,10 +12,17 @@ Code to populate a mysql database with emoji information, including
 Use the scripts in the database folder to set up the database
 First, create a database (if not already created) called emojistudy_db
 Then, while in the database folder,
+
+```
 > source setup_db.sql
+```
+
 Or, you can individually reset the emoji or rendering tables using
+
+```
 > source create_emoji.sql
 > source create_renderings.sql
+```
 
 ### Local Config
 Once the database is set up, you need to create a local configuration to access it
@@ -28,8 +35,7 @@ db_config = {'user':'',
              'database':'emojistudy_db'}
 ```
 
-If needed, refer to https://docs.google.com/a/umn.edu/document/d/1P3_oWjeGX3qMvay1YAtUsAV8mgcIowyx-5O7_0wzrBA/edit?usp=sharing
-for creating/adding users with database access, etc.
+If needed, refer to the GroupLens Central [Database Management document](https://docs.google.com/a/umn.edu/document/d/1P3_oWjeGX3qMvay1YAtUsAV8mgcIowyx-5O7_0wzrBA/edit?usp=sharing) for information about creating/adding users with database access, etc.
 
 
 ## EMOJI DATA
@@ -64,15 +70,11 @@ in the command line before scraping, perhaps if getting 'Unexpected EOF' errors
 
 
 ## SQL OUTPUT
-The populate scripts create sql scripts to mimic the insertions/updates that were performed during the database population.
-'insert_emoji.sql' and 'insert_renderings.sql'
-These scripts can be used to populate the database from previously collected/scraped data.
-(or, say, recreate the database elsewhere, after scraping on a given system)
+The python populate scripts create sql scripts to mimic the database insertions/updates that were performed. Therefore,these scripts (`insert_emoji.sql` and `insert_renderings.sql`) can be used to populate the database without re-running the python scripts (re-scraping and collecting data) (much faster).
 
 
 ## EMOJIPEDIA CODE CREDIT
-The files in the emojipedia fodler (emoji.py and emojipedia.py) are copied from
-https://github.com/bcongdon/python-emojipedia (Copyright (c) 2016 Ben Congdon)
+The files in the emojipedia fodler (emoji.py and emojipedia.py) are slightly-modified copies from the [python-emojipedia package](https://github.com/bcongdon/python-emojipedia) (Copyright (c) 2016 Ben Congdon)
 I needed to make my own copies of these files rather than simply install and use the emojipedia python package (which I was doing, originally) because I ran into too many errors related to network noise.
 
 In my own copies, I use request sessions with adapters configured for retries to handle network noise. I also added a property for the emoji's url extension (which we needed for identifying emoji in our rendering scraping algorithm from the platform version pages).

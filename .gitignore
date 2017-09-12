@@ -1,0 +1,6 @@
+*~
+env
+local_config.py
+run*
+__pycache__/
+.idea/

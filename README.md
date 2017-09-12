@@ -70,7 +70,7 @@ in the command line before scraping, perhaps if getting 'Unexpected EOF' errors
 
 
 ## SQL OUTPUT
-The python populate scripts create sql scripts to mimic the database insertions/updates that were performed. Therefore,these scripts (`insert_emoji.sql` and `insert_renderings.sql`) can be used to populate the database without re-running the python scripts (re-scraping and collecting data) (much faster).
+The python populate scripts create sql scripts to mimic the database insertions/updates that were performed. Therefore,these scripts (`insert_emoji.sql` and `insert_renderings.sql` in the database/data/ folder) can be used to populate the database without re-running the python scripts (re-scraping and collecting data) (much faster).
 
 
 ## EMOJIPEDIA CODE CREDIT

@@ -1,6 +1,6 @@
 import mysql.connector
 from local_config import db_config
-from emojipedia import Emojipedia,EMOJI_CATEGORIES
+from emojipedia.emojipedia import Emojipedia,EMOJI_CATEGORIES
 from emoji_data import Unicode_Emoji_Data
 
 # Connect to the database
@@ -11,7 +11,7 @@ cnx = mysql.connector.connect(user=db_config['user'],
 cursor = cnx.cursor()
 
 # Write all data definition queries to a file to be able to recreate the database without scraping
-with open('insert_emoji.sql','w', encoding='utf-8') as db_file:
+with open('database/data/insert_emoji.sql','w', encoding='utf-8') as db_file:
     print('USE emojistudy_db;',file=db_file)
     print(file=db_file)
 

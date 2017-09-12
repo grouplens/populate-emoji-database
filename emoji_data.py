@@ -1,3 +1,11 @@
+PLATFORMS = ['apple',
+             'google',
+             'htc',
+             'lg',
+             'microsoft',
+             'samsung',
+             'twitter']
+
 PLATFORM_VERSIONS = ['Apple iOS 10.3',
                      'Apple iOS 10.2',
                      'Apple iOS 10.0',

@@ -1,8 +1,8 @@
 import dateparser
 import mysql.connector
 from local_config import db_config
-from emojipedia import Emojipedia
-from emoji_data import PLATFORM_VERSIONS,PLATFORM_VERSION_URL_MISMATCH
+from emojipedia.emojipedia import Emojipedia
+from emoji_data import PLATFORMS,PLATFORM_VERSIONS,PLATFORM_VERSION_URL_MISMATCH
 
 # Connect to the database
 cnx = mysql.connector.connect(user=db_config['user'],
@@ -12,19 +12,18 @@ cnx = mysql.connector.connect(user=db_config['user'],
 cursor = cnx.cursor()
 
 # Write all data definition queries to a file to be able to recreate the database without scraping
-with open('insert_renderings.sql','w', encoding='utf-8') as db_file:
+with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_file:
     print('USE emojistudy_db;',file=db_file)
     print(file=db_file)
 
     print("Inserting PLATFORMS")
     # -------- PLATFORMS --------
-    our_platforms = ['apple','google','htc','lg','microsoft','samsung','twitter']
     insert_platform_query = ("INSERT INTO platforms "
                              "(platform_id,platform_name) "
                              "VALUES (%(id)s, %(name)s);")
     platform_dict = {}
     platform_index = 1
-    for platform in our_platforms:
+    for platform in PLATFORMS:
         cur_dict = {'id':platform_index,'name':platform}
         platform_dict[platform] = cur_dict
         cursor.execute(insert_platform_query,cur_dict)

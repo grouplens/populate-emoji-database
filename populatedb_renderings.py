@@ -52,7 +52,7 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
         platform = version_split[0].lower()
         version_name = ' '.join(version_split[1:])
         if version in PLATFORM_VERSION_URL_MISMATCH:
-            version_name = PLATFORM_VERSION_URL_MISMATCH[version]
+            version_name = ' '.join(PLATFORM_VERSION_URL_MISMATCH[version].split(' ')[1:])
         version_url_ext = ('-'.join(version_split[1:])).lower()
 
         # The list is ordered from most recent to least recent

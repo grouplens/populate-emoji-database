@@ -6,7 +6,8 @@ DROP TABLE IF EXISTS platforms;
 
 CREATE TABLE IF NOT EXISTS platforms (
     platform_id TINYINT NOT NULL AUTO_INCREMENT,
-    platform_name VARCHAR(10) NOT NULL UNIQUE,
+    platform_name VARCHAR(20) NOT NULL UNIQUE,
+    platform_display_name VARCHAR(20),
     PRIMARY KEY (platform_id)
 );
 
@@ -14,7 +15,9 @@ CREATE TABLE IF NOT EXISTS platform_versions (
     platform_version_id SMALLINT NOT NULL AUTO_INCREMENT,
     platform_id TINYINT,
     version_name VARCHAR(50) NOT NULL UNIQUE,
+    version_display_name VARCHAR(50),
     release_date DATE DEFAULT NULL,
+    in_use BOOLEAN,
     emojipedia_url_ext VARCHAR(50),
     prev_version_id SMALLINT,
     post_version_id SMALLINT,
@@ -33,8 +36,8 @@ CREATE TABLE IF NOT EXISTS renderings (
     emoji_id SMALLINT,
     platform_version_id SMALLINT,
     display_url VARCHAR(250),
-    isNew BOOLEAN DEFAULT NULL,
-    isChanged BOOLEAN DEFAULT NULL,
+    is_new BOOLEAN DEFAULT NULL,
+    is_changed BOOLEAN DEFAULT NULL,
     PRIMARY KEY (rendering_id),
     FOREIGN KEY (emoji_id) REFERENCES emoji(emoji_id),
     FOREIGN KEY (platform_version_id) REFERENCES platform_versions(platform_version_id)

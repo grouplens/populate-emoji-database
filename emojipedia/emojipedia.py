@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 from bs4 import BeautifulSoup
-from emoji import Emoji
+from .emoji import Emoji
 
 import requests
 from requests.adapters import HTTPAdapter

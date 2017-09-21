@@ -1,53 +1,54 @@
-PLATFORMS = ['apple',
-             'google',
-             'htc',
-             'lg',
-             'microsoft',
-             'samsung',
-             'twitter']
+PLATFORMS = [('apple','Apple'),
+             ('google','Google'),
+             ('htc','HTC'),
+             ('lg','LG'),
+             ('microsoft','Microsoft'),
+             ('samsung','Samsung'),
+             ('twitter','Twitter')]
 
-PLATFORM_VERSIONS = ['Apple iOS 10.3',
-                     'Apple iOS 10.2',
-                     'Apple iOS 10.0',
-                     'Apple iOS 9.3',
-                     'Apple iOS 9.1',
-                     'Apple iOS 9.0',
-                     'Apple iOS 8.3',
-                     'Apple iOS 6.0',
-                     'Apple iOS 5.0',
-                     'Google Android 8.0',
-                     'Google Android 7.1',
-                     'Google Android 7.0',
-                     'Google Android 6.0.1',
-                     'Google Android 5.0',
-                     'Google Android 4.4',
-                     'Google Android 4.3',
-                     'HTC Sense 7',
-                     'LG G5',
-                     'LG G4',
-                     'LG G3',
-                     'Microsoft Windows 10 Creators Update',
-                     'Microsoft Windows 10 Anniversary Update',
-                     'Microsoft Windows 10',
-                     'Microsoft Windows 8.1',
-                     'Microsoft Windows 8.0',
-                     'Samsung Galaxy S8 April 2017', # Samsung Galaxy S8 (April 2017)
-                     'Samsung Galaxy S8 Revised',    # Samsung Galaxy S8 (March 2017)
-                     'Samsung Galaxy S8',
-                     'Samsung Galaxy Note 7 Revised',# Samsung Galaxy Note 7 (September 2016)
-                     'Samsung Galaxy Note 7',
-                     'Samsung Galaxy S7',
-                     'Samsung Galaxy S5',
-                     'Samsung Galaxy S4',
-                     'Twitter Twemoji 2.3'
-                     #'Twitter Twemoji 2.2.3', # Ignore Twitter versions since will always be
-                     #'Twitter Twemoji 2.2.2',   using most recent
-                     #'Twitter Twemoji 2.2.1',
-                     #'Twitter Twemoji 2.2',
-                     #'Twitter Twemoji 2.1.2',
-                     #'Twitter Twemoji 2.1',
-                     #'Twitter Twemoji 2.0',
-                     #'Twitter Twemoji 1.0'
+                    #('Version Name','Survey Display Name',True/False=In Use)
+PLATFORM_VERSIONS = [('Apple iOS 10.3','iOS 10.3/11',True),
+                     ('Apple iOS 10.2','iOS 10.2',False),
+                     ('Apple iOS 10.0','iOS 10.0',False),
+                     ('Apple iOS 9.3','iOS 9.3',True),
+                     ('Apple iOS 9.1','iOS 9.1',False),
+                     ('Apple iOS 9.0','iOS 9.0',False),
+                     ('Apple iOS 8.3','iOS 8',False),
+                     ('Apple iOS 6.0','iOS 6/7',False),
+                     ('Apple iOS 5.0','iOS 5',False),
+                     ('Google Android 8.0','Android 8.0',False),
+                     ('Google Android 7.1','Android 7.1',True),
+                     ('Google Android 7.0','Android 7.0',True),
+                     ('Google Android 6.0.1','Android 6.0.1',True),
+                     ('Google Android 5.0','Android 5.0',True),
+                     ('Google Android 4.4','Android 4.4',False),
+                     ('Google Android 4.3','Android 4.3',False),
+                     ('HTC Sense 7','Devices',True),
+                     ('LG G5','G5',True),
+                     ('LG G4','G4',True),
+                     ('LG G3','G3',False),
+                     ('Microsoft Windows 10 Creators Update','Windows 10',True),
+                     ('Microsoft Windows 10 Anniversary Update','Windows 10 Anniversary Update',False),# Complete redesign
+                     ('Microsoft Windows 10','Windows 10 (No Updates)',False),# Here and older: weird old tiny creepy versions
+                     ('Microsoft Windows 8.1','Windows 8',True),# Color
+                     ('Microsoft Windows 8.0','Windows 8 (No Updates)',False),# Black & White
+                     ('Samsung Galaxy S8 April 2017','Devices',True), # Samsung Galaxy S8 (April 2017)
+                     ('Samsung Galaxy S8 Revised','Galaxy S8 Revised',False),    # Samsung Galaxy S8 (March 2017)
+                     ('Samsung Galaxy S8','Galaxy S8 (No Updates)',False),
+                     ('Samsung Galaxy Note 7 Revised','Galaxy Note 7',False),# Samsung Galaxy Note 7 (September 2016)
+                     ('Samsung Galaxy Note 7','Galaxy Note 7 (No Updates)',False),
+                     ('Samsung Galaxy S7','Galaxy S7 (No Updates)',False),
+                     ('Samsung Galaxy S5','Galaxy S5/S6 (No Updates)',False),
+                     ('Samsung Galaxy S4','Galaxy S4 (No Updates)',False),
+                     ('Twitter Twemoji 2.3','Web Client (Twemoji)',True),
+                     ('Twitter Twemoji 2.2.3','Twemoji 2.2.3',False), # Ignore Twitter versions since will always be
+                     ('Twitter Twemoji 2.2.2','Twemoji 2.2.2',False), # using most recent
+                     ('Twitter Twemoji 2.2.1','Twemoji 2.2.1',False),
+                     ('Twitter Twemoji 2.2','Twemoji 2.2',False),
+                     ('Twitter Twemoji 2.1.2','Twemoji 2.1.2',False),
+                     ('Twitter Twemoji 2.1','Twemoji 2.1',False),
+                     ('Twitter Twemoji 2.0','Twemoji 2.0',False),
+                     ('Twitter Twemoji 1.0','Twemoji 1.0',False)
                      ]
 
 PLATFORM_VERSION_URL_MISMATCH = {'Samsung Galaxy S8 April 2017':'Samsung Galaxy S8 (April 2017)',

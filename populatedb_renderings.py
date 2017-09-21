@@ -19,12 +19,12 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
     print("Inserting PLATFORMS")
     # -------- PLATFORMS --------
     insert_platform_query = ("INSERT INTO platforms "
-                             "(platform_id,platform_name) "
-                             "VALUES (%(id)s, %(name)s);")
+                             "(platform_id,platform_name,platform_display_name) "
+                             "VALUES (%(id)s, %(name)s, %(display_name)s);")
     platform_dict = {}
     platform_index = 1
-    for platform in PLATFORMS:
-        cur_dict = {'id':platform_index,'name':platform}
+    for (platform,platform_display_name) in PLATFORMS:
+        cur_dict = {'id':platform_index,'name':platform,'display_name':platform_display_name}
         platform_dict[platform] = cur_dict
         cursor.execute(insert_platform_query,cur_dict)
         print(cursor.statement,file=db_file)
@@ -39,14 +39,14 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
     # -------- PLATFORM VERSIONS --------
     print("Inserting PLATFORM VERSIONS")
     insert_platform_version_query = ("INSERT INTO platform_versions "
-                                     "(platform_version_id,platform_id,version_name,emojipedia_url_ext,post_version_id) "
-                                     "VALUES (%(id)s, %(platform_id)s, %(name)s, %(url)s, %(post_version_id)s);")
+                                     "(platform_version_id,platform_id,version_name,version_display_name,in_use,emojipedia_url_ext,post_version_id) "
+                                     "VALUES (%(id)s, %(platform_id)s, %(name)s, %(display_name)s, %(in_use)s, %(url)s, %(post_version_id)s);")
     platform_version_list = []
     last_looked_at_platform = None
     num_versions = len(PLATFORM_VERSIONS)
     platform_version_index = 1
     for i in range(0,num_versions):
-        version = PLATFORM_VERSIONS[i]
+        version,display_name,in_use = PLATFORM_VERSIONS[i]
         version_split = version.split(' ')
 
         platform = version_split[0].lower()
@@ -71,7 +71,7 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
         # also making it the oldest version
         prev_platform_index = platform_version_index + 1
         if (platform_version_index < num_versions-1 and \
-            not PLATFORM_VERSIONS[i+1].startswith(version_split[0])) \
+            not PLATFORM_VERSIONS[i+1][0].startswith(version_split[0])) \
            or (platform_version_index == num_versions):
             prev_platform_index = None
 
@@ -79,6 +79,8 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
                     'platform':platform,
                     'platform_id':platform_dict[platform]['id'],
                     'name':version_name,
+                    'display_name':display_name,
+                    'in_use':in_use,
                     'url':platform+'/'+version_url_ext,
                     'prev_version_id':prev_platform_index,
                     'post_version_id':post_platform_index}
@@ -110,7 +112,7 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
     # -------- RENDERINGS & rest of PLATFORM VERSIONS --------
     print('Inserting RENDERINGS & Updating rest of PLATFORM VERSIONS')
     insert_rendering_query = ("INSERT INTO renderings "
-                              "(rendering_id,emoji_id,platform_version_id,display_url,isNew,isChanged) "
+                              "(rendering_id,emoji_id,platform_version_id,display_url,is_new,is_changed) "
                               "VALUES (%(id)s, %(emoji_id)s, %(platform_version_id)s, %(display_url)s, %(isNew)s, %(isChanged)s);")
 
     update_platform_version_query = ("UPDATE platform_versions SET "

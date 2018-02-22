@@ -1,7 +1,6 @@
 *~
 env
 local_config.py
-run*
 archive/
 __pycache__/
 .idea/

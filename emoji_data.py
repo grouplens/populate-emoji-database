@@ -1,13 +1,15 @@
 PLATFORMS = [('apple','Apple'),
              ('google','Google'),
              ('htc','HTC'),
-             ('lg','LG'),
+             #('lg','LG'),
              ('microsoft','Microsoft'),
              ('samsung','Samsung'),
              ('twitter','Twitter')]
 
                     #('Version Name','Survey Display Name',True/False=In Use)
-PLATFORM_VERSIONS = [('Apple iOS 10.3','iOS 10.3/11',True),
+PLATFORM_VERSIONS = [('Apple iOS 11.2','iOS 11.2',True),
+                     ('Apple iOS 11.1','iOS 11.1',True),
+                     ('Apple iOS 10.3','iOS 10.3',True),
                      ('Apple iOS 10.2','iOS 10.2',False),
                      ('Apple iOS 10.0','iOS 10.0',False),
                      ('Apple iOS 9.3','iOS 9.3',True),
@@ -16,33 +18,44 @@ PLATFORM_VERSIONS = [('Apple iOS 10.3','iOS 10.3/11',True),
                      ('Apple iOS 8.3','iOS 8',False),
                      ('Apple iOS 6.0','iOS 6/7',False),
                      ('Apple iOS 5.0','iOS 5',False),
-                     ('Google Android 8.0','Android 8.0',False),
+
+                     ('Google Android 8.1','Android 8.1',True),
+                     ('Google Android 8.0','Android 8.0',True),
                      ('Google Android 7.1','Android 7.1',True),
                      ('Google Android 7.0','Android 7.0',True),
                      ('Google Android 6.0.1','Android 6.0.1',True),
                      ('Google Android 5.0','Android 5.0',True),
                      ('Google Android 4.4','Android 4.4',False),
                      ('Google Android 4.3','Android 4.3',False),
-                     ('HTC Sense 7','Devices',True),
-                     ('LG G5','G5',True),
-                     ('LG G4','G4',True),
-                     ('LG G3','G3',False),
-                     ('Microsoft Windows 10 Creators Update','Windows 10',True),
+
+                     ('HTC Sense 8','Devices',True),
+                     ('HTC Sense 7','Devices',False),
+
+                     #('LG G5','G5',True), Mostly using Google Android now, I believe (Emojipedia says "any that received Android 7 update...)
+                     #('LG G4','G4',True),
+                     #('LG G3','G3',False),
+
+                     ('Microsoft Windows 10 Fall Creators Update','Windows 10',True),
+                     ('Microsoft Windows 10 Creators Update','Windows 10 Creators Update',False),
                      ('Microsoft Windows 10 Anniversary Update','Windows 10 Anniversary Update',False),# Complete redesign
                      ('Microsoft Windows 10','Windows 10 (No Updates)',False),# Here and older: weird old tiny creepy versions
                      ('Microsoft Windows 8.1','Windows 8',True),# Color
-                     ('Microsoft Windows 8.0','Windows 8 (No Updates)',False),# Black & White
-                     ('Samsung Galaxy S8 April 2017','Devices',True), # Samsung Galaxy S8 (April 2017)
-                     ('Samsung Galaxy S8 Revised','Galaxy S8 Revised',False),    # Samsung Galaxy S8 (March 2017)
-                     ('Samsung Galaxy S8','Galaxy S8 (No Updates)',False),
-                     ('Samsung Galaxy Note 7 Revised','Galaxy Note 7',False),# Samsung Galaxy Note 7 (September 2016)
-                     ('Samsung Galaxy Note 7','Galaxy Note 7 (No Updates)',False),
-                     ('Samsung Galaxy S7','Galaxy S7 (No Updates)',False),
-                     ('Samsung Galaxy S5','Galaxy S5/S6 (No Updates)',False),
-                     ('Samsung Galaxy S4','Galaxy S4 (No Updates)',False),
-                     ('Twitter Twemoji 2.3','Web Client (Twemoji)',True),
-                     ('Twitter Twemoji 2.2.3','Twemoji 2.2.3',False), # Ignore Twitter versions since will always be
-                     ('Twitter Twemoji 2.2.2','Twemoji 2.2.2',False), # using most recent
+                     ('Microsoft Windows 8.0','Windows 7, 8 (Not Updated)',True),# Black & White
+
+                     ('Samsung Experience 9.0','Devices',False),
+                     ('Samsung Experience 8.5','Devices',True),                         # Previously named: Samsung Galaxy S8 (April 2017)
+                     ('Samsung Experience 8.1','Experience 8.1',False),                 # Previously named: Samsung Galaxy S8 (March 2017)
+                     ('Samsung Experience 8.0','Galaxy S8 (Not Updated)',False),        # Previously named: Samsung Galaxy S8
+                     ('Samsung TouchWiz 7.1','Galaxy Note 7',False),                    # Previously named: Samsung Galaxy Note 7 Revised / Samsung Galaxy Note 7 (September 2016)
+                     ('Samsung TouchWiz 7.0','Galaxy Note 7 (Not Updated)',False),      # Previously named: Samsung Galaxy Note 7
+                     ('Samsung TouchWiz 6.0','Galaxy S7 (Not Updated)',False),          # Previously named: Samsung Galaxy S7
+                     ('Samsung TouchWiz 5.1','Galaxy S5/S6 (Not Updated)',False),       # Previously named: Samsung Galaxy S5
+                     ('Samsung TouchWiz 2.0','Galaxy S4 (Not Updated)',False), # On Website: TouchWiz Nature UX 2, Previously named: Samsung Galaxy S4
+
+                     ('Twitter Twemoji 2.4','Web Client (Twemoji)',True),
+                     ('Twitter Twemoji 2.3','Twemoji 2.3',False), # Ignore Twitter versions since will always be
+                     ('Twitter Twemoji 2.2.3','Twemoji 2.2.3',False), # using most recent
+                     ('Twitter Twemoji 2.2.2','Twemoji 2.2.2',False),
                      ('Twitter Twemoji 2.2.1','Twemoji 2.2.1',False),
                      ('Twitter Twemoji 2.2','Twemoji 2.2',False),
                      ('Twitter Twemoji 2.1.2','Twemoji 2.1.2',False),
@@ -51,13 +64,20 @@ PLATFORM_VERSIONS = [('Apple iOS 10.3','iOS 10.3/11',True),
                      ('Twitter Twemoji 1.0','Twemoji 1.0',False)
                      ]
 
-PLATFORM_VERSION_URL_MISMATCH = {'Samsung Galaxy S8 April 2017':'Samsung Galaxy S8 (April 2017)',
-                                 'Samsung Galaxy S8 Revised':'Samsung Galaxy S8 (March 2017)',
-                                 'Samsung Galaxy Note 7 Revised':'Samsung Galaxy Note 7 (September 2016)'}
+PLATFORM_VERSION_URL_MISMATCH = {}
+                               #{'Samsung Galaxy S8 April 2017':'Samsung Galaxy S8 (April 2017)',
+                               # 'Samsung Galaxy S8 Revised':'Samsung Galaxy S8 (March 2017)',
+                               # 'Samsung Galaxy Note 7 Revised':'Samsung Galaxy Note 7 (September 2016)'}
 
 
 
 class Unicode_Emoji_Data:
+
+    EMOJI_VERSIONS = [(1.0,'Emoji 1.0'),
+                      (2.0,'Emoji 2.0'),
+                      (3.0,'Emoji 3.0'),
+                      (4.0,'Emoji 4.0'),
+                      (5.0,'Emoji 5.0')]
 
     EMOJI_MODIFIERS = ['1F3FB',
                        '1F3FC',

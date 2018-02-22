@@ -59,6 +59,7 @@ class Emojipedia:
             emojis.append(e)
         return emojis
 
+    """ The page emojipedia.org/emoji seems to no longer be supported! (function below is to replace)
     @staticmethod
     def all():
         '''Returns list of emojis in Emojipedia.
@@ -81,6 +82,30 @@ class Emojipedia:
             e._codepoints = codepoints.text.split(', ')
             e._character, e._title = emoji_text[0], ' '.join(emoji_text[1:])
             emojis.append(e)
+        return emojis
+    """
+
+    @staticmethod
+    def all_by_emoji_version(emoji_version):
+        '''Returns list of emojis in Emojipedia.
+            An extremely powerful method.
+            Returns all emojis known to human-kind. 😎
+            :returns: List of all emojies
+            :rtype: [Emoji]
+        '''
+        soup = Emojipedia._get_page(emoji_version)
+
+        emojis = []
+        emoji_lists = soup.find('div', {'class': 'content'}).find_all('ul')
+        for emoji_list in emoji_lists:
+            for emoji_entry in emoji_list.find_all('li'):
+                if emoji_entry.find('span', {'class': 'emoji'}):
+                    emoji_link = emoji_entry.find('a')
+                    emoji_text = emoji_link.text.split(' ')
+
+                    e = Emoji(url=emoji_link['href'])
+                    e._character, e._title = emoji_text[0], ' '.join(emoji_text[1:])
+                    emojis.append(e)
         return emojis
 
     @staticmethod

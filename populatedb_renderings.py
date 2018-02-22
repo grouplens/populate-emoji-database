@@ -1,7 +1,7 @@
 import dateparser
 import mysql.connector
 from local_config import db_config
-from emojipedia.emojipedia import Emojipedia
+from emojipedia.emojipedia import Emojipedia,Emoji
 from emoji_data import PLATFORMS,PLATFORM_VERSIONS,PLATFORM_VERSION_URL_MISMATCH
 
 # Connect to the database
@@ -99,15 +99,40 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
     # -------- POPULATE EMOJI DICTIONARY FROM DATABASE
     print("Getting EMOJI from database")
     emoji_counts_dict = {}
-    emoji_dict_query = "SELECT emoji_id,emojipedia_url_ext FROM emoji;"
+    emoji_dict_query = "SELECT emoji_id,emojipedia_url_ext FROM emoji ORDER BY emoji_id;"
     cursor.execute(emoji_dict_query)
+    emoji_index = None
     for id,url in cursor:
+        emoji_index = id
         emoji_counts_dict[url] = {'id':id,
                                   'platforms':[],
                                   'num_renderings':0,
                                   'num_changed_renderings':0}
+    emoji_index += 1
+    print("Next inserted emoji at: {0}".format(emoji_index))
     print("- Completed -")
     print()
+
+
+    # -------- POPULATE CODE POINT DICTIONARY FROM DATABASE
+    print("Getting CODE POINTS from database")
+    codepoint_dict = {}
+    codepoint_dict_query = "SELECT codepoint_id,codepoint,isComponent,isModifier,isModifierBase FROM codepoints ORDER BY codepoint_id;"
+    cursor.execute(codepoint_dict_query)
+    for id,codepoint,isComponent,isModifier,isModifierBase in cursor:
+        cur_dict = {'id':id,
+                    'codepoint':codepoint,
+                    'isComponent':True,
+                    'isModifier':isModifier,
+                    'isModifierBase':isModifierBase}
+        codepoint_dict[codepoint] = cur_dict
+    emoji_codepoint_index_query = "SELECT MAX(emoji_codepoint_id)+1 FROM emoji_codepoints;"
+    cursor.execute(emoji_codepoint_index_query)
+    emoji_codepoint_index = cursor.fetchone()[0]
+    print("Next inserted emoji codepoint at: {0}".format(emoji_codepoint_index))
+    print("- Completed -")
+    print()
+
 
     # -------- RENDERINGS & rest of PLATFORM VERSIONS --------
     print('Inserting RENDERINGS & Updating rest of PLATFORM VERSIONS')
@@ -123,7 +148,17 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
                                      "num_new_emoji = %(num_new)s, "
                                      "num_removed_emoji = %(num_removed)s "
                                      "WHERE platform_version_id = %(id)s;")
+
+    insert_emoji_query = ("INSERT INTO emoji "
+                          "(emoji_id,emoji_name,emojipedia_url_ext,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) "
+                          "VALUES (%(id)s, %(name)s, %(url)s, %(codepoint_string)s, %(num_codepoints)s, %(hasComponent)s, %(hasModifier)s, %(hasModifierBase)s, %(appearance_differs)s, %(not_recommended)s);")
+
+    insert_emoji_codepoint_query = ("INSERT INTO emoji_codepoints "
+                                    "(emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) "
+                                    "VALUES (%(id)s, %(emoji_id)s, %(codepoint_id)s, %(sequence_index)s);")
+
     rendering_index = 1
+    emoji_to_skip = []
     for platform_version in platform_version_list:
         print('renderings and updating {0}'.format(platform_version['name']))
         # First, build lists of changed emoji and new emoji
@@ -138,8 +173,6 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
             cur_dict = emoji_counts_dict.get(emoji_url_ext,None)
             if cur_dict:
                 cur_dict['num_changed_renderings'] += 1
-            else:
-                print('found changed rendering not in emoji list: {0}'.format(emoji_url_ext))
             changed_emoji_list.append(emoji_url_ext)
         platform_version['num_changed'] = len(changed_emoji_list)
 
@@ -170,35 +203,108 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
 
             # update emoji counts
             counts_dict = emoji_counts_dict.get(emoji_url_ext,None)
-            if counts_dict:
-                emoji_id = counts_dict['id']
+            if counts_dict is None:
+                if emoji_url_ext in emoji_to_skip:
+                    print('skipping {0} again'.format(emoji_url_ext))
+                    print('-- skipping {0} again'.format(emoji_url_ext),file=db_file)
+                    num_emoji += 1
+                    continue
 
-                counts_dict['num_renderings'] += 1
-                if platform_version['platform'] not in counts_dict['platforms']:
-                    counts_dict['platforms'].append(platform_version['platform'])
+                # Emoji not found in dictionary, create emoji and emoji_codepoints if codepoints exist for emoji
+                hasComponent = False
+                hasModifier = False
+                hasModifierBase = False
+                emoji_codepoint_list = []
+                sequence = 1
+                is_emoji = True
+                new_emoji = Emoji(url='/'+emoji_url_ext)
+                for codepoint_U in new_emoji.codepoints:
+                    codepoint = codepoint_U[2:] # codepoints are pre-pended with U+
+                    cur_codepoint_dict = codepoint_dict.get(codepoint,None)
+                    if cur_codepoint_dict is None:
+                        is_emoji = False
+                        break
+                    hasComponent = hasComponent or cur_codepoint_dict['isComponent']
+                    hasModifier = hasModifier or cur_codepoint_dict['isModifier']
+                    hasModifierBase = hasModifierBase or cur_codepoint_dict['isModifierBase']
 
-                # get image display url from the img src
-                img_src = emoji_entry.findNext('img')['src']
-                if img_src.endswith('lazy.svg'):
-                    img_src = emoji_entry.findNext('img')['data-src']
+                    emoji_codepoint_list.append({'id':emoji_codepoint_index,
+                                                 'emoji_id':emoji_index,
+                                                 'codepoint_id':cur_codepoint_dict['id'],
+                                                 'sequence_index':sequence})
+                    emoji_codepoint_index += 1
+                    sequence += 1
+                if not is_emoji:
+                    emoji_to_skip.append(emoji_url_ext)
+                    print(file=db_file)
+                    print('skipping {0}, codepoint(s) not in emoji data: {1}'.format(emoji_url_ext,new_emoji.codepoints))
+                    print('-- skipping {0}, codepoint(s) not in emoji data: {1}'.format(emoji_url_ext,new_emoji.codepoints),file=db_file)
+                    print(file=db_file)
+                    num_emoji += 1
+                    continue
 
-                isNew = emoji_url_ext in new_emoji_list
-                isChanged = emoji_url_ext in changed_emoji_list
+                # Codepoint String = straight string of codepoints: U+###U+#### (to extract, .split('U+'))
+                codepoint_string = ''.join(new_emoji.codepoints)
 
-                # create the rendering, map by platform version id and emoji id
-                rendering_dict = {'id':rendering_index,
-                                  'emoji_id':emoji_id,
-                                  'platform_version_id':platform_version['id'],
-                                  'display_url':img_src,
-                                  'isNew':isNew,
-                                  'isChanged':isChanged}
-                cursor.execute(insert_rendering_query,rendering_dict)
+                # Description flags for appearance differing across platforms or not being recommended by the Unicode
+                description = new_emoji.description
+                appearance_differs = True if "Appearance differs greatly cross-platform." in description else False
+                not_recommended = True if "has not been recommended by Unicode." in description else False
+                if not not_recommended:
+                    not_recommended = True if "has not been Recommended For General Interchange (RGI) by Unicode." in description else False
+
+                cur_dict = {'id':emoji_index,
+                            'name':new_emoji.title,
+                            'url':emoji_url_ext,
+                            #'raw_character':emoji.character,
+                            'codepoint_string':codepoint_string,
+                            'num_codepoints':len(new_emoji.codepoints),
+                            'hasComponent':hasComponent,
+                            'hasModifier':hasModifier,
+                            'hasModifierBase':hasModifierBase,
+                            'appearance_differs':appearance_differs,
+                            'not_recommended':not_recommended}
+                counts_dict = {'id':emoji_index,
+                               'platforms':[],
+                               'num_renderings':0,
+                               'num_changed_renderings':1}
+                emoji_counts_dict[emoji_url_ext] = counts_dict
+
+                print(file=db_file)
+                cursor.execute(insert_emoji_query,cur_dict)
                 print(cursor.statement,file=db_file)
+                cursor.executemany(insert_emoji_codepoint_query,emoji_codepoint_list)
+                print(cursor.statement,file=db_file)
+                print(file=db_file)
 
-                rendering_index += 1
-            else:
-                print('found rendering not in emoji list: {0}'.format(emoji_url_ext))
+                emoji_index += 1
 
+
+            emoji_id = counts_dict['id']
+
+            counts_dict['num_renderings'] += 1
+            if platform_version['platform'] not in counts_dict['platforms']:
+                counts_dict['platforms'].append(platform_version['platform'])
+
+            # get image display url from the img src
+            img_src = emoji_entry.findNext('img')['src']
+            if img_src.endswith('lazy.svg'):
+                img_src = emoji_entry.findNext('img')['data-src']
+
+            isNew = emoji_url_ext in new_emoji_list
+            isChanged = emoji_url_ext in changed_emoji_list
+
+            # create the rendering, map by platform version id and emoji id
+            rendering_dict = {'id':rendering_index,
+                              'emoji_id':emoji_id,
+                              'platform_version_id':platform_version['id'],
+                              'display_url':img_src,
+                              'isNew':isNew,
+                              'isChanged':isChanged}
+            cursor.execute(insert_rendering_query,rendering_dict)
+            print(cursor.statement,file=db_file)
+
+            rendering_index += 1
             num_emoji += 1
             # if num_emoji > 5:
             #     break

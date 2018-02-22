@@ -3,6 +3,15 @@ USE emojistudy_db;
 DROP TABLE IF EXISTS emoji_codepoints;
 DROP TABLE IF EXISTS codepoints;
 DROP TABLE IF EXISTS emoji;
+DROP TABLE IF EXISTS emoji_versions;
+
+CREATE TABLE IF NOT EXISTS emoji_versions (
+    emoji_version_id TINYINT NOT NULL AUTO_INCREMENT,
+    emoji_version DECIMAL(2,1) UNIQUE NOT NULL,
+    emoji_version_name VARCHAR(20),
+    emojipedia_url_ext VARCHAR(20),
+    PRIMARY KEY (emoji_version_id)
+);
 
 CREATE TABLE IF NOT EXISTS emoji (
     emoji_id SMALLINT NOT NULL AUTO_INCREMENT,
@@ -19,11 +28,9 @@ CREATE TABLE IF NOT EXISTS emoji (
     hasModifierBase BOOLEAN DEFAULT NULL,
     appearance_differs_flag BOOLEAN,
     unicode_not_recommended BOOLEAN,
-    num_tweets INT DEFAULT 0,
-    num_filtered_tweets INT DEFAULT 0,
-    num_invited_tweets INT DEFAULT 0,
-    num_study_tweets INT DEFAULT 0,
-    PRIMARY KEY (emoji_id)
+    emoji_version_id TINYINT,
+    PRIMARY KEY (emoji_id),
+    FOREIGN KEY (emoji_version_id) REFERENCES emoji_versions(emoji_version_id)
 );
 
 CREATE TABLE IF NOT EXISTS codepoints (

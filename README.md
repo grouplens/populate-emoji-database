@@ -1,6 +1,7 @@
 # Populate Emoji Database
 
 Code to populate a mysql database with emoji information, including
+* emoji versions
 * codepoints
 * emoji characters
 * emoji_codepoint sequences
@@ -48,16 +49,17 @@ This code relies on keeping the emoji_data.py file up-to-date:
   - This list must be ordered such that all versions for a given platform are consecutive, and in order from most recent to the oldest version
 * Unicode_Emoji_Data
   - This class contains lists for
+    * EMOJI_VERSIONS
     * EMOJI_MODIFIERS
     * EMOJI_MODIFIER_BASES
     * EMOJI_COMPONENTS
     * EMOJI
   - To make these lists, I converted the associated js lists from https://github.com/mathiasbynens/unicode-tr51 whose codebase parses the emoji data lists given by the Unicode and generates these lists
-  - Need to check this repository/the Unidoce emoji data lists to see if you need to update these lists (ex. when they come out with new emoji versions)
+  - Need to check this repository/the Unidoce emoji data lists to see if you need to update these lists (i.e., when they come out with new emoji versions--I made the emoji versions list manually)
 
 
 ## TO RUN
-Once the database is set up, use `populatedb_emoji.py` to populate the codepoints, emoji characters, and emoji codepoint tables, then `populatedb_renderings.py` to populate the platforms, platform versions, and renderings tables
+Once the database is set up, use `populatedb_emoji.py` to populate the emoji versions, codepoints, emoji characters, and emoji codepoint tables, then `populatedb_renderings.py` to populate the platforms, platform versions, and renderings tables. This second script also adds emoji and emoji-codepoints if emoji are found on the platform pages that have valid codepoints in the emoji data.
 
 Note: You may have to
 
@@ -80,4 +82,6 @@ I needed to make my own copies of these files rather than simply install and use
 In my own copies, I use request sessions with adapters configured for retries to handle network noise. I also added a property for the emoji's url extension (which we needed for identifying emoji in our rendering scraping algorithm from the platform version pages).
 At this point in time, these are the only difference between my copies and their code base (9/12/17)
 
+As of 2/20/18, I needed to make more changes: originally the "all" emoji emojipedia function used the emojipedia.org/emoji url, which was a page that listed all emoji in emojipedia along with their codepoints in a huge table. That page no longer seems to be live.
+Because of this, I have now also added an all_emoji_by_version function that scrapes all of the emoji on a given version's page. I also modified the emoji codepoints code because I discovered a bug: the code was creating a list from creating a set, which was losing the proper order of the codepoints (which have to be in exactly the right order; a different order could identify a different emoji). I didn't run into this bug before because the previous all emoji function scraped the codepoints right off that page, but the emoji version pages don't list the codepoints the same way.
 

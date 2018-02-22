@@ -105,11 +105,13 @@ class Emoji:
             Example: ``['U+1F937']``
         '''
         if not self._codepoints:
+            codepoints = []
             code_list = self._soup.find(text='Codepoints').findNext('ul')
             if code_list:
-                nonunique = [child.text.split()[1]
-                             for child in code_list.findChildren()]
-                self._codepoints = list(set(nonunique))
+                for code_entry in code_list.find_all('li'):
+                    codepoints.append(code_entry.find('a').text.split()[1])
+
+                self._codepoints = codepoints
         return self._codepoints
 
     @property

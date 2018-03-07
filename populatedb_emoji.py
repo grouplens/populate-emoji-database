@@ -7,8 +7,13 @@ from emoji_data import Unicode_Emoji_Data
 cnx = mysql.connector.connect(user=db_config['user'],
                               host=db_config['host'],
                               password=db_config['password'],
-                              database=db_config['database'])
+                              database=db_config['database'],
+                              use_unicode=True)
 cursor = cnx.cursor()
+# Enforce UTF-8 for the connection.
+cursor.execute('SET NAMES utf8mb4')
+cursor.execute("SET CHARACTER SET utf8mb4")
+cursor.execute("SET character_set_connection=utf8mb4")
 
 # Write all data definition queries to a file to be able to recreate the database without scraping
 with open('database/data/insert_emoji.sql','w', encoding='utf-8') as db_file:
@@ -107,8 +112,8 @@ with open('database/data/insert_emoji.sql','w', encoding='utf-8') as db_file:
 
     print('Inserting EMOJI & EMOJI CODEPOINTS')
     insert_emoji_query = ("INSERT INTO emoji "
-                          "(emoji_id,emoji_version_id,emoji_name,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) "
-                          "VALUES (%(id)s, %(version_id)s, %(name)s, %(url)s, %(category)s, %(codepoint_string)s, %(num_codepoints)s, %(hasComponent)s, %(hasModifier)s, %(hasModifierBase)s, %(appearance_differs)s, %(not_recommended)s);")
+                          "(emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) "
+                          "VALUES (%(id)s, %(version_id)s, %(name)s, %(character)s, %(url)s, %(category)s, %(codepoint_string)s, %(num_codepoints)s, %(hasComponent)s, %(hasModifier)s, %(hasModifierBase)s, %(appearance_differs)s, %(not_recommended)s);")
 
     insert_emoji_codepoint_query = ("INSERT INTO emoji_codepoints "
                                     "(emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) "
@@ -169,6 +174,7 @@ with open('database/data/insert_emoji.sql','w', encoding='utf-8') as db_file:
             cur_dict = {'id':emoji_index,
                         'version_id':emoji_version_id,
                         'name':emoji.title,
+                        'character':emoji.character,
                         'url':url,
                         'category':emoji_category,
                         #'raw_character':emoji.character,

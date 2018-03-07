@@ -7,5 +7,6 @@ DROP TABLE IF EXISTS platforms;
 DROP TABLE IF EXISTS emoji_codepoints;
 DROP TABLE IF EXISTS codepoints;
 DROP TABLE IF EXISTS emoji;
+DROP TABLE IF EXISTS emoji_versions;
 
 COMMIT;

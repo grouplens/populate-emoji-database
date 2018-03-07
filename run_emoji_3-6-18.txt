@@ -1,0 +1,83 @@
+Inserting EMOJI VERSIONS
+- Completed -
+
+Inserting CODEPOINTS
+- Completed -
+
+Creating emoji category dictionary
+- Completed -
+
+Getting complete list of emoji (from emoji version pages)
+Num emoji in version Emoji 1.0: 1269
+Num emoji in version Emoji 2.0: 381
+Num emoji in version Emoji 3.0: 179
+Num emoji in version Emoji 4.0: 628
+Num emoji in version Emoji 5.0: 276
+- Completed -
+
+Inserting EMOJI & EMOJI CODEPOINTS
+completed 50 emoji (50 total so far)
+completed 50 emoji (100 total so far)
+completed 50 emoji (150 total so far)
+completed 50 emoji (200 total so far)
+completed 50 emoji (250 total so far)
+completed 50 emoji (300 total so far)
+completed 50 emoji (350 total so far)
+completed 50 emoji (400 total so far)
+completed 50 emoji (450 total so far)
+completed 50 emoji (500 total so far)
+completed 50 emoji (550 total so far)
+completed 50 emoji (600 total so far)
+completed 50 emoji (650 total so far)
+completed 50 emoji (700 total so far)
+completed 50 emoji (750 total so far)
+completed 50 emoji (800 total so far)
+completed 50 emoji (850 total so far)
+completed 50 emoji (900 total so far)
+completed 50 emoji (950 total so far)
+completed 50 emoji (1000 total so far)
+completed 50 emoji (1050 total so far)
+completed 50 emoji (1100 total so far)
+completed 50 emoji (1150 total so far)
+completed 50 emoji (1200 total so far)
+completed 50 emoji (1250 total so far)
+completed 50 emoji (1300 total so far)
+completed 50 emoji (1350 total so far)
+completed 50 emoji (1400 total so far)
+completed 50 emoji (1450 total so far)
+completed 50 emoji (1500 total so far)
+completed 50 emoji (1550 total so far)
+completed 50 emoji (1600 total so far)
+completed 50 emoji (1650 total so far)
+completed 50 emoji (1700 total so far)
+completed 50 emoji (1750 total so far)
+completed 50 emoji (1800 total so far)
+completed 50 emoji (1850 total so far)
+completed 50 emoji (1900 total so far)
+completed 50 emoji (1950 total so far)
+completed 50 emoji (2000 total so far)
+completed 50 emoji (2050 total so far)
+completed 50 emoji (2100 total so far)
+completed 50 emoji (2150 total so far)
+completed 50 emoji (2200 total so far)
+completed 50 emoji (2250 total so far)
+completed 50 emoji (2300 total so far)
+completed 50 emoji (2350 total so far)
+completed 50 emoji (2400 total so far)
+completed 50 emoji (2450 total so far)
+completed 50 emoji (2500 total so far)
+completed 50 emoji (2550 total so far)
+completed 50 emoji (2600 total so far)
+completed 50 emoji (2650 total so far)
+completed 50 emoji (2700 total so far)
+- Completed - (2733 emoji inserted)
+
+for category  people , found:  340  out of  342
+for category  nature , found:  165  out of  170
+for category  food-drink , found:  97  out of  97
+for category  activity , found:  97  out of  98
+for category  travel-places , found:  119  out of  125
+for category  objects , found:  172  out of  175
+for category  symbols , found:  258  out of  258
+for category  flags , found:  268  out of  268
+

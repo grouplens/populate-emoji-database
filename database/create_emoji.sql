@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS emoji_versions (
 CREATE TABLE IF NOT EXISTS emoji (
     emoji_id SMALLINT NOT NULL AUTO_INCREMENT,
     emoji_name VARCHAR(150),
+    emoji_character VARCHAR(30),
     emojipedia_url_ext VARCHAR(150) UNIQUE,
     emojipedia_category VARCHAR(50),
     codepoint_string VARCHAR(150) UNIQUE,

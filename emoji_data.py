@@ -1,7 +1,7 @@
 PLATFORMS = [('apple','Apple'),
              ('google','Google'),
              ('htc','HTC'),
-             #('lg','LG'),
+             ('lg','LG'),
              ('microsoft','Microsoft'),
              ('samsung','Samsung'),
              ('twitter','Twitter')]
@@ -25,15 +25,15 @@ PLATFORM_VERSIONS = [('Apple iOS 11.2','iOS 11.2',True),
                      ('Google Android 7.0','Android 7.0',True),
                      ('Google Android 6.0.1','Android 6.0.1',True),
                      ('Google Android 5.0','Android 5.0',True),
-                     ('Google Android 4.4','Android 4.4',False),
+                     ('Google Android 4.4','Android 4.4',True),
                      ('Google Android 4.3','Android 4.3',False),
 
                      ('HTC Sense 8','Devices',True),
                      ('HTC Sense 7','Devices',False),
 
-                     #('LG G5','G5',True), Mostly using Google Android now, I believe (Emojipedia says "any that received Android 7 update...)
-                     #('LG G4','G4',True),
-                     #('LG G3','G3',False),
+                     ('LG G5','G5',True), #Mostly using Google Android now, I believe (Emojipedia says "any that received Android 7 update...)
+                     ('LG G4','G4',True), #Also, seems even G5 and G4
+                     ('LG G3','G3',False),
 
                      ('Microsoft Windows 10 Fall Creators Update','Windows 10',True),
                      ('Microsoft Windows 10 Creators Update','Windows 10 Creators Update',False),

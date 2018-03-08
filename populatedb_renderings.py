@@ -150,8 +150,8 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
                                      "WHERE platform_version_id = %(id)s;")
 
     insert_emoji_query = ("INSERT INTO emoji "
-                          "(emoji_id,emoji_name,emojipedia_url_ext,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) "
-                          "VALUES (%(id)s, %(name)s, %(url)s, %(codepoint_string)s, %(num_codepoints)s, %(hasComponent)s, %(hasModifier)s, %(hasModifierBase)s, %(appearance_differs)s, %(not_recommended)s);")
+                          "(emoji_id,emoji_name,emoji_character,emojipedia_url_ext,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) "
+                          "VALUES (%(id)s, %(name)s, %(char)s, %(url)s, %(codepoint_string)s, %(num_codepoints)s, %(hasComponent)s, %(hasModifier)s, %(hasModifierBase)s, %(appearance_differs)s, %(not_recommended)s);")
 
     insert_emoji_codepoint_query = ("INSERT INTO emoji_codepoints "
                                     "(emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) "
@@ -255,6 +255,7 @@ with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_fil
 
                 cur_dict = {'id':emoji_index,
                             'name':new_emoji.title,
+                            'char':new_emoji.character,
                             'url':emoji_url_ext,
                             #'raw_character':emoji.character,
                             'codepoint_string':codepoint_string,

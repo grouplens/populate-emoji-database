@@ -1,0 +1,2375 @@
+Inserting PLATFORMS
+- Completed -
+
+Inserting PLATFORM VERSIONS
+- Completed -
+
+Getting EMOJI from database
+Next inserted emoji at: 2734
+- Completed -
+
+Getting CODE POINTS from database
+Next inserted emoji codepoint at: 6409
+- Completed -
+
+Inserting RENDERINGS & Updating rest of PLATFORM VERSIONS
+renderings and updating iOS 11.2
+renderings and updating iOS 11.1
+renderings and updating iOS 10.3
+renderings and updating iOS 10.2
+renderings and updating iOS 10.0
+renderings and updating iOS 9.3
+renderings and updating iOS 9.1
+renderings and updating iOS 9.0
+renderings and updating iOS 8.3
+renderings and updating iOS 6.0
+skipping shibuya, codepoint(s) not in emoji data: ['U+E50A']
+renderings and updating iOS 5.0
+skipping shibuya again
+renderings and updating Android 8.1
+renderings and updating Android 8.0
+renderings and updating Android 7.1
+renderings and updating Android 7.0
+renderings and updating Android 6.0.1
+renderings and updating Android 5.0
+renderings and updating Android 4.4
+renderings and updating Android 4.3
+renderings and updating Sense 8
+renderings and updating Sense 7
+renderings and updating G5
+skipping overlap, codepoint(s) not in emoji data: ['U+1F5D7']
+skipping left-anger-bubble, codepoint(s) not in emoji data: ['U+1F5EE']
+skipping increase-font-size-symbol, codepoint(s) not in emoji data: ['U+1F5DA']
+skipping upper-right-shadowed-white-circle, codepoint(s) not in emoji data: ['U+1F53F']
+skipping three-rays-right, codepoint(s) not in emoji data: ['U+1F5E7']
+skipping two-speech-bubbles, codepoint(s) not in emoji data: ['U+1F5EA']
+skipping black-droplet, codepoint(s) not in emoji data: ['U+1F322']
+skipping white-sun, codepoint(s) not in emoji data: ['U+1F323']
+skipping three-rays-left, codepoint(s) not in emoji data: ['U+1F5E6']
+skipping three-rays-above, codepoint(s) not in emoji data: ['U+1F5E4']
+skipping lower-right-shadowed-white-circle, codepoint(s) not in emoji data: ['U+1F53E']
+skipping pages, codepoint(s) not in emoji data: ['U+1F5D0']
+skipping light-check-mark, codepoint(s) not in emoji data: ['U+1F5F8']
+skipping three-speech-bubbles, codepoint(s) not in emoji data: ['U+1F5EB']
+skipping page-with-circled-text, codepoint(s) not in emoji data: ['U+1F5DF']
+skipping triangle-with-rounded-corners, codepoint(s) not in emoji data: ['U+1F6C6']
+skipping girls-symbol, codepoint(s) not in emoji data: ['U+1F6CA']
+skipping prohibited-sign, codepoint(s) not in emoji data: ['U+1F6C7']
+skipping left-thought-bubble, codepoint(s) not in emoji data: ['U+1F5EC']
+skipping ballot-box-with-bold-check, codepoint(s) not in emoji data: ['U+1F5F9']
+skipping three-rays-below, codepoint(s) not in emoji data: ['U+1F5E5']
+skipping ballot-script-x, codepoint(s) not in emoji data: ['U+1F5F4']
+skipping black-pennant, codepoint(s) not in emoji data: ['U+1F3F2']
+skipping ballot-box-with-script-x, codepoint(s) not in emoji data: ['U+1F5F5']
+skipping right-speech-bubble, codepoint(s) not in emoji data: ['U+1F5E9']
+skipping ballot-box-with-bold-script-x, codepoint(s) not in emoji data: ['U+1F5F7']
+skipping white-pennant, codepoint(s) not in emoji data: ['U+1F3F1']
+skipping boys-symbol, codepoint(s) not in emoji data: ['U+1F6C9']
+skipping circled-information-source, codepoint(s) not in emoji data: ['U+1F6C8']
+skipping ballot-bold-script-x, codepoint(s) not in emoji data: ['U+1F5F6']
+skipping lightning-mood, codepoint(s) not in emoji data: ['U+1F5F2']
+skipping lightning-mood-bubble, codepoint(s) not in emoji data: ['U+1F5F1']
+skipping cancellation-x, codepoint(s) not in emoji data: ['U+1F5D9']
+skipping black-rosette, codepoint(s) not in emoji data: ['U+1F3F6']
+skipping clockwise-right-and-left-semicircle-arrows, codepoint(s) not in emoji data: ['U+1F5D8']
+skipping mood-bubble, codepoint(s) not in emoji data: ['U+1F5F0']
+skipping wired-keyboard, codepoint(s) not in emoji data: ['U+1F5AE']
+skipping black-down-pointing-backhand-index, codepoint(s) not in emoji data: ['U+1F5A3']
+skipping celtic-cross, codepoint(s) not in emoji data: ['U+1F548']
+skipping left-hand-telephone-receiver, codepoint(s) not in emoji data: ['U+1F57B']
+skipping up-pointing-small-airplane, codepoint(s) not in emoji data: ['U+1F6E8']
+skipping musical-keyboard-with-jacks, codepoint(s) not in emoji data: ['U+1F398']
+skipping black-up-pointing-backhand-index, codepoint(s) not in emoji data: ['U+1F5A2']
+skipping telephone-receiver-with-page, codepoint(s) not in emoji data: ['U+1F57C']
+skipping tape-cartridge, codepoint(s) not in emoji data: ['U+1F5AD']
+skipping black-pushpin, codepoint(s) not in emoji data: ['U+1F588']
+skipping note, codepoint(s) not in emoji data: ['U+1F5C8']
+skipping one-button-mouse, codepoint(s) not in emoji data: ['U+1F5AF']
+skipping book, codepoint(s) not in emoji data: ['U+1F56E']
+skipping sideways-black-up-pointing-index, codepoint(s) not in emoji data: ['U+1F5A0']
+skipping sideways-black-down-pointing-index, codepoint(s) not in emoji data: ['U+1F5A1']
+skipping ringing-bell, codepoint(s) not in emoji data: ['U+1F56D']
+skipping note-page, codepoint(s) not in emoji data: ['U+1F5C9']
+skipping lower-left-pencil, codepoint(s) not in emoji data: ['U+1F589']
+skipping sideways-white-right-pointing-index, codepoint(s) not in emoji data: ['U+1F599']
+skipping right-hand-telephone-receiver, codepoint(s) not in emoji data: ['U+1F57D']
+skipping empty-note-pad, codepoint(s) not in emoji data: ['U+1F5C7']
+skipping soft-shell-floppy-disk, codepoint(s) not in emoji data: ['U+1F5AC']
+skipping document-with-text, codepoint(s) not in emoji data: ['U+1F5B9']
+skipping no-piracy, codepoint(s) not in emoji data: ['U+1F572']
+skipping diesel-locomotive, codepoint(s) not in emoji data: ['U+1F6F2']
+skipping optical-disc-icon, codepoint(s) not in emoji data: ['U+1F5B8']
+skipping white-hard-shell-floppy-disk, codepoint(s) not in emoji data: ['U+1F5AB']
+skipping white-touchtone-telephone, codepoint(s) not in emoji data: ['U+1F57E']
+skipping right-speaker-with-three-sound-waves, codepoint(s) not in emoji data: ['U+1F56A']
+skipping reversed-thumbs-down-sign, codepoint(s) not in emoji data: ['U+1F593']
+skipping sideways-white-left-pointing-index, codepoint(s) not in emoji data: ['U+1F598']
+skipping keyboard-and-mouse, codepoint(s) not in emoji data: ['U+1F5A6']
+skipping bullhorn-with-sound-waves, codepoint(s) not in emoji data: ['U+1F56C']
+skipping black-skull-and-crossbones, codepoint(s) not in emoji data: ['U+1F571']
+skipping oncoming-fire-engine, codepoint(s) not in emoji data: ['U+1F6F1']
+skipping portable-stereo, codepoint(s) not in emoji data: ['U+1F4FE']
+skipping black-hard-shell-floppy-disk, codepoint(s) not in emoji data: ['U+1F5AA']
+skipping bullhorn, codepoint(s) not in emoji data: ['U+1F56B']
+skipping black-touchtone-telephone, codepoint(s) not in emoji data: ['U+1F57F']
+skipping three-networked-computers, codepoint(s) not in emoji data: ['U+1F5A7']
+skipping folder, codepoint(s) not in emoji data: ['U+1F5C0']
+skipping beamed-descending-musical-notes, codepoint(s) not in emoji data: ['U+1F39D']
+skipping open-folder, codepoint(s) not in emoji data: ['U+1F5C1']
+skipping screen, codepoint(s) not in emoji data: ['U+1F5B5']
+skipping pocket-calculator, codepoint(s) not in emoji data: ['U+1F5A9']
+skipping black-left-pointing-backhand-index, codepoint(s) not in emoji data: ['U+1F59C']
+skipping sideways-white-up-pointing-index, codepoint(s) not in emoji data: ['U+1F59E']
+skipping clamshell-mobile-phone, codepoint(s) not in emoji data: ['U+1F581']
+skipping white-down-pointing-left-hand-index, codepoint(s) not in emoji data: ['U+1F597']
+skipping stamped-envelope, codepoint(s) not in emoji data: ['U+1F583']
+skipping sideways-black-left-pointing-index, codepoint(s) not in emoji data: ['U+1F59A']
+skipping left-writing-hand, codepoint(s) not in emoji data: ['U+1F58E']
+skipping document, codepoint(s) not in emoji data: ['U+1F5CE']
+skipping document-with-text-and-picture, codepoint(s) not in emoji data: ['U+1F5BA']
+skipping right-speaker, codepoint(s) not in emoji data: ['U+1F568']
+skipping fax-icon, codepoint(s) not in emoji data: ['U+1F5B7']
+skipping printer-icon, codepoint(s) not in emoji data: ['U+1F5B6']
+skipping right-speaker-with-one-sound-wave, codepoint(s) not in emoji data: ['U+1F569']
+skipping empty-pages, codepoint(s) not in emoji data: ['U+1F5CD']
+skipping back-of-envelope, codepoint(s) not in emoji data: ['U+1F582']
+skipping flying-envelope, codepoint(s) not in emoji data: ['U+1F585']
+skipping reversed-raised-hand-with-fingers-splayed, codepoint(s) not in emoji data: ['U+1F591']
+skipping empty-note, codepoint(s) not in emoji data: ['U+1F5C5']
+skipping white-latin-cross, codepoint(s) not in emoji data: ['U+1F546']
+skipping empty-page, codepoint(s) not in emoji data: ['U+1F5CC']
+skipping up-pointing-airplane, codepoint(s) not in emoji data: ['U+1F6E7']
+skipping northeast-pointing-airplane, codepoint(s) not in emoji data: ['U+1F6EA']
+skipping up-pointing-military-airplane, codepoint(s) not in emoji data: ['U+1F6E6']
+skipping empty-document, codepoint(s) not in emoji data: ['U+1F5CB']
+skipping black-folder, codepoint(s) not in emoji data: ['U+1F5BF']
+skipping heavy-latin-cross, codepoint(s) not in emoji data: ['U+1F547']
+skipping two-button-mouse, codepoint(s) not in emoji data: ['U+1F5B0']
+skipping envelope-with-lightning, codepoint(s) not in emoji data: ['U+1F584']
+skipping sideways-white-down-pointing-index, codepoint(s) not in emoji data: ['U+1F59F']
+skipping telephone-on-top-of-modem, codepoint(s) not in emoji data: ['U+1F580']
+skipping reversed-victory-hand, codepoint(s) not in emoji data: ['U+1F594']
+skipping turned-ok-hand-sign, codepoint(s) not in emoji data: ['U+1F58F']
+skipping sideways-black-right-pointing-index, codepoint(s) not in emoji data: ['U+1F59B']
+skipping document-with-picture, codepoint(s) not in emoji data: ['U+1F5BB']
+skipping hard-disk, codepoint(s) not in emoji data: ['U+1F5B4']
+skipping page, codepoint(s) not in emoji data: ['U+1F5CF']
+skipping note-pad, codepoint(s) not in emoji data: ['U+1F5CA']
+skipping frame-with-an-x, codepoint(s) not in emoji data: ['U+1F5BE']
+skipping notched-right-semicircle-with-three-dots, codepoint(s) not in emoji data: ['U+1F544']
+skipping beamed-ascending-musical-notes, codepoint(s) not in emoji data: ['U+1F39C']
+skipping bouquet-of-flowers, codepoint(s) not in emoji data: ['U+1F395']
+skipping heart-with-tip-on-the-left, codepoint(s) not in emoji data: ['U+1F394']
+skipping frame-with-tiles, codepoint(s) not in emoji data: ['U+1F5BD']
+skipping old-personal-computer, codepoint(s) not in emoji data: ['U+1F5B3']
+skipping symbol-for-marks-chapter, codepoint(s) not in emoji data: ['U+1F545']
+skipping empty-note-page, codepoint(s) not in emoji data: ['U+1F5C6']
+skipping pen-over-stamped-envelope, codepoint(s) not in emoji data: ['U+1F586']
+skipping reversed-thumbs-up-sign, codepoint(s) not in emoji data: ['U+1F592']
+skipping black-right-pointing-backhand-index, codepoint(s) not in emoji data: ['U+1F59D']
+skipping minimize, codepoint(s) not in emoji data: ['U+1F5D5']
+skipping desktop-window, codepoint(s) not in emoji data: ['U+1F5D4']
+skipping stock-chart, codepoint(s) not in emoji data: ['U+1F5E0']
+skipping decrease-font-size-symbol, codepoint(s) not in emoji data: ['U+1F5DB']
+skipping right-thought-bubble, codepoint(s) not in emoji data: ['U+1F5ED']
+skipping maximize, codepoint(s) not in emoji data: ['U+1F5D6']
+skipping lips, codepoint(s) not in emoji data: ['U+1F5E2']
+renderings and updating G4
+skipping notched-right-semicircle-with-three-dots again
+skipping frame-with-an-x again
+skipping beamed-ascending-musical-notes again
+skipping note-pad again
+skipping old-personal-computer again
+skipping empty-note-pad again
+skipping reversed-thumbs-down-sign again
+skipping sideways-white-up-pointing-index again
+skipping reversed-victory-hand again
+skipping turned-ok-hand-sign again
+skipping sideways-black-right-pointing-index again
+skipping bouquet-of-flowers again
+skipping document-with-picture again
+skipping page again
+skipping hard-disk again
+skipping folder again
+skipping heart-with-tip-on-the-left again
+skipping frame-with-tiles again
+skipping beamed-descending-musical-notes again
+skipping symbol-for-marks-chapter again
+skipping empty-note-page again
+skipping pen-over-stamped-envelope again
+skipping reversed-thumbs-up-sign again
+skipping black-right-pointing-backhand-index again
+skipping minimize again
+skipping desktop-window again
+skipping open-folder again
+skipping stock-chart again
+skipping decrease-font-size-symbol again
+skipping right-thought-bubble again
+skipping maximize again
+skipping lips again
+skipping overlap again
+skipping left-anger-bubble again
+skipping increase-font-size-symbol again
+skipping upper-right-shadowed-white-circle again
+skipping three-rays-right again
+skipping screen again
+skipping pocket-calculator again
+skipping two-speech-bubbles again
+skipping black-droplet again
+skipping white-sun again
+skipping three-rays-left again
+skipping three-rays-above again
+skipping lower-right-shadowed-white-circle again
+skipping pages again
+skipping light-check-mark again
+skipping three-speech-bubbles again
+skipping black-left-pointing-backhand-index again
+skipping page-with-circled-text again
+skipping triangle-with-rounded-corners again
+skipping girls-symbol again
+skipping prohibited-sign again
+skipping left-thought-bubble again
+skipping ballot-box-with-bold-check again
+skipping three-rays-below again
+skipping ballot-script-x again
+skipping black-pennant again
+skipping ballot-box-with-script-x again
+skipping right-speech-bubble again
+skipping ballot-box-with-bold-script-x again
+skipping white-pennant again
+skipping boys-symbol again
+skipping circled-information-source again
+skipping clamshell-mobile-phone again
+skipping ballot-bold-script-x again
+skipping lightning-mood again
+skipping lightning-mood-bubble again
+skipping cancellation-x again
+skipping black-rosette again
+skipping clockwise-right-and-left-semicircle-arrows again
+skipping mood-bubble again
+skipping wired-keyboard again
+skipping black-down-pointing-backhand-index again
+skipping celtic-cross again
+skipping white-down-pointing-left-hand-index again
+skipping stamped-envelope again
+skipping sideways-black-left-pointing-index again
+skipping left-writing-hand again
+skipping document again
+skipping document-with-text-and-picture again
+skipping right-speaker again
+skipping fax-icon again
+skipping printer-icon again
+skipping right-speaker-with-one-sound-wave again
+skipping empty-pages again
+skipping back-of-envelope again
+skipping left-hand-telephone-receiver again
+skipping up-pointing-small-airplane again
+skipping musical-keyboard-with-jacks again
+skipping flying-envelope again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping empty-note again
+skipping black-up-pointing-backhand-index again
+skipping telephone-receiver-with-page again
+skipping tape-cartridge again
+skipping black-pushpin again
+skipping note again
+skipping one-button-mouse again
+skipping sideways-black-up-pointing-index again
+skipping sideways-black-down-pointing-index again
+skipping ringing-bell again
+skipping note-page again
+skipping lower-left-pencil again
+skipping sideways-white-right-pointing-index again
+skipping right-hand-telephone-receiver again
+skipping soft-shell-floppy-disk again
+skipping document-with-text again
+skipping no-piracy again
+skipping diesel-locomotive again
+skipping optical-disc-icon again
+skipping white-hard-shell-floppy-disk again
+skipping white-touchtone-telephone again
+skipping three-networked-computers again
+skipping black-touchtone-telephone again
+skipping bullhorn again
+skipping black-hard-shell-floppy-disk again
+skipping portable-stereo again
+skipping oncoming-fire-engine again
+skipping black-skull-and-crossbones again
+skipping bullhorn-with-sound-waves again
+skipping keyboard-and-mouse again
+skipping sideways-white-left-pointing-index again
+skipping right-speaker-with-three-sound-waves again
+skipping book again
+skipping telephone-on-top-of-modem again
+skipping sideways-white-down-pointing-index again
+skipping envelope-with-lightning again
+skipping two-button-mouse again
+skipping heavy-latin-cross again
+skipping black-folder again
+skipping empty-document again
+skipping up-pointing-military-airplane again
+skipping northeast-pointing-airplane again
+skipping up-pointing-airplane again
+skipping empty-page again
+skipping white-latin-cross again
+renderings and updating G3
+renderings and updating Windows 10 Fall Creators Update
+skipping white-left-pointing-index, codepoint(s) not in emoji data: ['U+261C']
+skipping black-right-pointing-index, codepoint(s) not in emoji data: ['U+261B']
+skipping black-left-pointing-index, codepoint(s) not in emoji data: ['U+261A']
+skipping white-right-pointing-index, codepoint(s) not in emoji data: ['U+261E']
+skipping white-down-pointing-index, codepoint(s) not in emoji data: ['U+261F']
+skipping rotated-heavy-black-heart-bullet, codepoint(s) not in emoji data: ['U+2765']
+skipping white-diamond-suit, codepoint(s) not in emoji data: ['U+2662']
+skipping lower-right-pencil, codepoint(s) not in emoji data: ['U+270E']
+skipping white-heart-suit, codepoint(s) not in emoji data: ['U+2661']
+skipping reversed-victory-hand again
+skipping white-spade-suit, codepoint(s) not in emoji data: ['U+2664']
+skipping upper-right-pencil, codepoint(s) not in emoji data: ['U+2710']
+skipping white-club-suit, codepoint(s) not in emoji data: ['U+2667']
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+261B', 'U+1F3FB']
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+261C', 'U+1F3FB']
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+261F', 'U+1F3FB']
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+261A', 'U+1F3FB']
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+261E', 'U+1F3FB']
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+1F594', 'U+1F3FB']
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+261C', 'U+1F3FC']
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+261E', 'U+1F3FC']
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+261F', 'U+1F3FC']
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+261A', 'U+1F3FC']
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+1F594', 'U+1F3FC']
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+261B', 'U+1F3FC']
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+261B', 'U+1F3FD']
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+261A', 'U+1F3FD']
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+261C', 'U+1F3FD']
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+261F', 'U+1F3FD']
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+261E', 'U+1F3FD']
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+1F594', 'U+1F3FD']
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+261A', 'U+1F3FE']
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+1F594', 'U+1F3FE']
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+261C', 'U+1F3FE']
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+261F', 'U+1F3FE']
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+261B', 'U+1F3FE']
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+261E', 'U+1F3FE']
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+261F', 'U+1F3FF']
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+261E', 'U+1F3FF']
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+261C', 'U+1F3FF']
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+261A', 'U+1F3FF']
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+261B', 'U+1F3FF']
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+1F594', 'U+1F3FF']
+renderings and updating Windows 10 Creators Update
+skipping white-left-pointing-index again
+skipping black-right-pointing-index again
+skipping black-left-pointing-index again
+skipping white-right-pointing-index again
+skipping white-down-pointing-index again
+skipping rotated-heavy-black-heart-bullet again
+skipping white-diamond-suit again
+skipping lower-right-pencil again
+skipping white-heart-suit again
+skipping reversed-victory-hand again
+skipping white-spade-suit again
+skipping upper-right-pencil again
+skipping white-club-suit again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-6 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating Windows 10 Anniversary Update
+skipping reversed-victory-hand again
+skipping upper-right-pencil again
+skipping white-spade-suit again
+skipping white-heart-suit again
+skipping lower-right-pencil again
+skipping white-diamond-suit again
+skipping rotated-heavy-black-heart-bullet again
+skipping white-down-pointing-index again
+skipping white-right-pointing-index again
+skipping black-left-pointing-index again
+skipping black-right-pointing-index again
+skipping white-left-pointing-index again
+skipping white-club-suit again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-1-2 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-3 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-4 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-victory-hand-emoji-modifier-fitzpatrick-type-6 again
+skipping black-left-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-down-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping black-right-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-right-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+skipping white-left-pointing-index-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating Windows 10
+skipping mahjong-tile-north-wind, codepoint(s) not in emoji data: ['U+1F003']
+skipping mahjong-tile-two-of-circles, codepoint(s) not in emoji data: ['U+1F01A']
+skipping mahjong-tile-nine-of-bamboos, codepoint(s) not in emoji data: ['U+1F018']
+skipping recycling-symbol-for-type-1-plastics, codepoint(s) not in emoji data: ['U+2673']
+skipping mahjong-tile-eight-of-characters, codepoint(s) not in emoji data: ['U+1F00E']
+skipping mahjong-tile-winter, codepoint(s) not in emoji data: ['U+1F029']
+skipping mercury, codepoint(s) not in emoji data: ['U+263F', 'U+FE0F']
+skipping white-club-suit again
+skipping interlocked-female-and-male-sign, codepoint(s) not in emoji data: ['U+26A4']
+skipping partially-recycled-paper-symbol, codepoint(s) not in emoji data: ['U+267D']
+skipping male-and-female-sign, codepoint(s) not in emoji data: ['U+26A5']
+skipping mahjong-tile-four-of-circles, codepoint(s) not in emoji data: ['U+1F01C']
+skipping universal-recycling-symbol, codepoint(s) not in emoji data: ['U+2672']
+skipping white-telephone, codepoint(s) not in emoji data: ['U+260F']
+skipping mahjong-tile-one-of-circles, codepoint(s) not in emoji data: ['U+1F019']
+skipping mahjong-tile-chrysanthemum, codepoint(s) not in emoji data: ['U+1F025']
+skipping mahjong-tile-south-wind, codepoint(s) not in emoji data: ['U+1F001']
+skipping horizontal-male-with-stroke-sign, codepoint(s) not in emoji data: ['U+26A9']
+skipping vertical-male-with-stroke-sign, codepoint(s) not in emoji data: ['U+26A8']
+skipping jupiter, codepoint(s) not in emoji data: ['U+2643']
+skipping mahjong-tile-east-wind, codepoint(s) not in emoji data: ['U+1F000']
+skipping mahjong-tile-five-of-bamboos, codepoint(s) not in emoji data: ['U+1F014']
+skipping mahjong-tile-nine-of-characters, codepoint(s) not in emoji data: ['U+1F00F']
+skipping mahjong-tile-three-of-circles, codepoint(s) not in emoji data: ['U+1F01B']
+skipping mahjong-tile-autumn, codepoint(s) not in emoji data: ['U+1F028']
+skipping mahjong-tile-six-of-bamboos, codepoint(s) not in emoji data: ['U+1F015']
+skipping white-left-pointing-index again
+skipping squared-saltire, codepoint(s) not in emoji data: ['U+26DD']
+skipping heavy-circle-with-stroke-and-two-dots-above, codepoint(s) not in emoji data: ['U+26E3']
+skipping black-smiling-face, codepoint(s) not in emoji data: ['U+263B']
+skipping mahjong-tile-one-of-bamboos, codepoint(s) not in emoji data: ['U+1F010']
+skipping mahjong-tile-seven-of-circles, codepoint(s) not in emoji data: ['U+1F01F']
+skipping mahjong-tile-five-of-characters, codepoint(s) not in emoji data: ['U+1F00B']
+skipping pluto, codepoint(s) not in emoji data: ['U+2647']
+skipping neptune, codepoint(s) not in emoji data: ['U+2646']
+skipping mahjong-tile-six-of-characters, codepoint(s) not in emoji data: ['U+1F00C']
+skipping mahjong-tile-green-dragon, codepoint(s) not in emoji data: ['U+1F005']
+skipping mahjong-tile-two-of-bamboos, codepoint(s) not in emoji data: ['U+1F011']
+skipping mahjong-tile-one-of-characters, codepoint(s) not in emoji data: ['U+1F007']
+skipping mahjong-tile-four-of-bamboos, codepoint(s) not in emoji data: ['U+1F013']
+skipping mahjong-tile-four-of-characters, codepoint(s) not in emoji data: ['U+1F00A']
+skipping mahjong-tile-six-of-circles, codepoint(s) not in emoji data: ['U+1F01E']
+skipping saturn, codepoint(s) not in emoji data: ['U+2644']
+skipping recycling-symbol-for-type-6-plastics, codepoint(s) not in emoji data: ['U+2678']
+skipping black-snowman, codepoint(s) not in emoji data: ['U+26C7']
+skipping recycling-symbol-for-type-7-plastics, codepoint(s) not in emoji data: ['U+2679']
+skipping black-right-pointing-index again
+skipping black-left-pointing-index again
+skipping white-right-pointing-index again
+skipping ballot-box-with-x, codepoint(s) not in emoji data: ['U+2612']
+skipping mahjong-tile-eight-of-circles, codepoint(s) not in emoji data: ['U+1F020']
+skipping mahjong-tile-two-of-characters, codepoint(s) not in emoji data: ['U+1F008']
+skipping mahjong-tile-plum, codepoint(s) not in emoji data: ['U+1F022']
+skipping recycled-paper-symbol, codepoint(s) not in emoji data: ['U+267C']
+skipping uranus, codepoint(s) not in emoji data: ['U+2645']
+skipping doubled-female-sign, codepoint(s) not in emoji data: ['U+26A2']
+skipping mahjong-tile-five-of-circles, codepoint(s) not in emoji data: ['U+1F01D']
+skipping mahjong-tile-three-of-bamboos, codepoint(s) not in emoji data: ['U+1F012']
+skipping mahjong-tile-white-dragon, codepoint(s) not in emoji data: ['U+1F006']
+skipping ballot-box, codepoint(s) not in emoji data: ['U+2610']
+skipping white-heart-suit again
+skipping recycling-symbol-for-type-3-plastics, codepoint(s) not in emoji data: ['U+2675']
+skipping recycling-symbol-for-type-2-plastics, codepoint(s) not in emoji data: ['U+2674']
+skipping doubled-male-sign, codepoint(s) not in emoji data: ['U+26A3']
+skipping mahjong-tile-orchid, codepoint(s) not in emoji data: ['U+1F023']
+skipping mahjong-tile-summer, codepoint(s) not in emoji data: ['U+1F027']
+skipping mahjong-tile-joker, codepoint(s) not in emoji data: ['U+1F02A']
+skipping white-spade-suit again
+skipping mahjong-tile-seven-of-characters, codepoint(s) not in emoji data: ['U+1F00D']
+skipping male-with-stroke-and-male-and-female-sign, codepoint(s) not in emoji data: ['U+26A7']
+skipping male-with-stroke-sign, codepoint(s) not in emoji data: ['U+26A6']
+skipping mahjong-tile-spring, codepoint(s) not in emoji data: ['U+1F026']
+skipping mahjong-tile-bamboo, codepoint(s) not in emoji data: ['U+1F024']
+skipping mahjong-tile-back, codepoint(s) not in emoji data: ['U+1F02B']
+skipping white-down-pointing-index again
+skipping mahjong-tile-three-of-characters, codepoint(s) not in emoji data: ['U+1F009']
+skipping mahjong-tile-nine-of-circles, codepoint(s) not in emoji data: ['U+1F021']
+skipping recycling-symbol-for-type-4-plastics, codepoint(s) not in emoji data: ['U+2676']
+skipping white-diamond-suit again
+skipping lower-right-pencil again
+skipping recycling-symbol-for-type-5-plastics, codepoint(s) not in emoji data: ['U+2677']
+skipping recycling-symbol-for-generic-materials, codepoint(s) not in emoji data: ['U+267A']
+skipping rotated-heavy-black-heart-bullet again
+skipping mahjong-tile-west-wind, codepoint(s) not in emoji data: ['U+1F002']
+skipping mahjong-tile-seven-of-bamboos, codepoint(s) not in emoji data: ['U+1F016']
+skipping upper-right-pencil again
+skipping earth, codepoint(s) not in emoji data: ['U+2641']
+skipping mahjong-tile-eight-of-bamboos, codepoint(s) not in emoji data: ['U+1F017']
+renderings and updating Windows 8.1
+renderings and updating Windows 8.0
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping recycling-symbol-for-generic-materials again
+skipping recycling-symbol-for-type-5-plastics again
+skipping lower-right-pencil again
+skipping white-diamond-suit again
+skipping recycling-symbol-for-type-4-plastics again
+skipping rotated-heavy-black-heart-bullet again
+skipping recycling-symbol-for-type-7-plastics again
+skipping white-down-pointing-index again
+skipping ballot-box again
+skipping ballot-box-with-x again
+skipping black-snowman again
+skipping recycling-symbol-for-type-6-plastics again
+skipping saturn again
+skipping white-right-pointing-index again
+skipping black-left-pointing-index again
+skipping black-right-pointing-index again
+skipping white-telephone again
+skipping white-left-pointing-index again
+skipping pluto again
+skipping black-smiling-face again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping squared-saltire again
+skipping upper-right-pencil again
+skipping mercury again
+skipping neptune again
+skipping jupiter again
+skipping uranus again
+skipping earth again
+skipping horizontal-male-with-stroke-sign again
+skipping vertical-male-with-stroke-sign again
+skipping universal-recycling-symbol again
+skipping male-and-female-sign again
+skipping partially-recycled-paper-symbol again
+skipping interlocked-female-and-male-sign again
+skipping white-club-suit again
+skipping recycling-symbol-for-type-1-plastics again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-spade-suit again
+skipping doubled-male-sign again
+skipping recycling-symbol-for-type-2-plastics again
+skipping recycling-symbol-for-type-3-plastics again
+skipping white-heart-suit again
+renderings and updating Experience 9.0
+skipping black-chess-pawn, codepoint(s) not in emoji data: ['U+265F', 'U+FE0F']
+skipping permanent-paper-sign, codepoint(s) not in emoji data: ['U+267E', 'U+FE0F']
+skipping japanese-bank-symbol, codepoint(s) not in emoji data: ['U+26FB']
+skipping cross-of-jerusalem, codepoint(s) not in emoji data: ['U+2629']
+skipping square-four-corners, codepoint(s) not in emoji data: ['U+26F6']
+skipping notched-right-semicircle-with-three-dots again
+skipping unmarried-partnership-symbol, codepoint(s) not in emoji data: ['U+26AF']
+skipping recycling-symbol-for-type-5-plastics again
+skipping prohibited-sign again
+skipping digram-for-greater-yin, codepoint(s) not in emoji data: ['U+268F']
+skipping die-face-1, codepoint(s) not in emoji data: ['U+2680']
+skipping music-natural-sign, codepoint(s) not in emoji data: ['U+266E']
+skipping pluto again
+skipping black-chess-bishop, codepoint(s) not in emoji data: ['U+265D']
+skipping neptune again
+skipping crossing-lanes, codepoint(s) not in emoji data: ['U+26CC']
+skipping white-draughts-man, codepoint(s) not in emoji data: ['U+26C0']
+skipping black-chess-king, codepoint(s) not in emoji data: ['U+265A']
+skipping digram-for-greater-yang, codepoint(s) not in emoji data: ['U+268C']
+skipping die-face-6, codepoint(s) not in emoji data: ['U+2685']
+skipping white-diamond-in-square, codepoint(s) not in emoji data: ['U+26CB']
+skipping recycling-symbol-for-generic-materials again
+skipping black-flag, codepoint(s) not in emoji data: ['U+2691']
+skipping monogram-for-yin, codepoint(s) not in emoji data: ['U+268B']
+skipping pallas, codepoint(s) not in emoji data: ['U+26B4']
+skipping three-lines-converging-left, codepoint(s) not in emoji data: ['U+269F']
+skipping triangle-with-rounded-corners again
+skipping white-chess-bishop, codepoint(s) not in emoji data: ['U+2657']
+skipping jupiter again
+skipping die-face-5, codepoint(s) not in emoji data: ['U+2684']
+skipping white-flag, codepoint(s) not in emoji data: ['U+2690']
+skipping reversed-thumbs-down-sign again
+skipping vertical-male-with-stroke-sign again
+skipping black-circle-with-white-dot-right, codepoint(s) not in emoji data: ['U+2688']
+skipping quincunx, codepoint(s) not in emoji data: ['U+26BB']
+skipping turned-white-shogi-piece, codepoint(s) not in emoji data: ['U+26C9']
+skipping recycling-symbol-for-type-4-plastics again
+skipping trigram-for-heaven, codepoint(s) not in emoji data: ['U+2630']
+skipping white-circle-with-two-dots, codepoint(s) not in emoji data: ['U+2687']
+skipping monogram-for-yang, codepoint(s) not in emoji data: ['U+268A']
+skipping three-lines-converging-right, codepoint(s) not in emoji data: ['U+269E']
+skipping white-telephone again
+skipping music-flat-sign, codepoint(s) not in emoji data: ['U+266D']
+skipping cross-of-lorraine, codepoint(s) not in emoji data: ['U+2628']
+skipping saturn again
+skipping black-right-pointing-index again
+skipping falling-diagonal-in-white-circle-in-black-square, codepoint(s) not in emoji data: ['U+26DE']
+skipping turned-black-shogi-piece, codepoint(s) not in emoji data: ['U+26CA']
+skipping ceres, codepoint(s) not in emoji data: ['U+26B3']
+skipping caduceus, codepoint(s) not in emoji data: ['U+2624']
+skipping semisextile, codepoint(s) not in emoji data: ['U+26BA']
+skipping recycling-symbol-for-type-6-plastics again
+skipping reversed-thumbs-up-sign again
+skipping black-circle-with-two-white-dots, codepoint(s) not in emoji data: ['U+2689']
+skipping black-snowman again
+skipping white-chess-king, codepoint(s) not in emoji data: ['U+2654']
+skipping medium-small-white-circle, codepoint(s) not in emoji data: ['U+26AC']
+skipping sextile, codepoint(s) not in emoji data: ['U+26B9']
+skipping black-smiling-face again
+skipping thunderstorm, codepoint(s) not in emoji data: ['U+2608']
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping white-two-way-left-way-traffic, codepoint(s) not in emoji data: ['U+26D7']
+skipping trigram-for-wind, codepoint(s) not in emoji data: ['U+2634']
+skipping universal-recycling-symbol again
+skipping gear-with-handles, codepoint(s) not in emoji data: ['U+26EE']
+skipping drive-slow-sign, codepoint(s) not in emoji data: ['U+26DA']
+skipping uranus again
+skipping mercury again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping cross-pommee-with-half-circle-below, codepoint(s) not in emoji data: ['U+1F541']
+skipping inverted-pentagram, codepoint(s) not in emoji data: ['U+26E7']
+skipping conjunction, codepoint(s) not in emoji data: ['U+260C']
+skipping male-and-female-sign again
+skipping opposition, codepoint(s) not in emoji data: ['U+260D']
+skipping right-speaker-with-one-sound-wave again
+skipping recycled-paper-symbol again
+skipping partially-recycled-paper-symbol again
+skipping doubled-female-sign again
+skipping black-chess-knight, codepoint(s) not in emoji data: ['U+265E']
+skipping white-latin-cross again
+skipping squared-key, codepoint(s) not in emoji data: ['U+26BF']
+skipping headstone-graveyard-symbol, codepoint(s) not in emoji data: ['U+26FC']
+skipping black-two-way-left-way-traffic, codepoint(s) not in emoji data: ['U+26D6']
+skipping sun, codepoint(s) not in emoji data: ['U+2609']
+skipping recycling-symbol-for-type-3-plastics again
+skipping marriage-symbol, codepoint(s) not in emoji data: ['U+26AD']
+skipping white-sun again
+skipping rain, codepoint(s) not in emoji data: ['U+26C6']
+skipping neuter, codepoint(s) not in emoji data: ['U+26B2']
+skipping recycling-symbol-for-type-7-plastics again
+skipping circled-crossing-lanes, codepoint(s) not in emoji data: ['U+26D2']
+skipping ringing-bell again
+skipping outlined-white-star, codepoint(s) not in emoji data: ['U+269D']
+skipping white-circle-with-dot-right, codepoint(s) not in emoji data: ['U+2686']
+skipping chi-rho, codepoint(s) not in emoji data: ['U+2627']
+skipping caution-sign, codepoint(s) not in emoji data: ['U+2621']
+skipping trigram-for-water, codepoint(s) not in emoji data: ['U+2635']
+skipping gear-without-hub, codepoint(s) not in emoji data: ['U+26ED']
+skipping white-sun-with-rays, codepoint(s) not in emoji data: ['U+263C']
+skipping astronomical-symbol-for-uranus, codepoint(s) not in emoji data: ['U+26E2']
+skipping adi-shakti, codepoint(s) not in emoji data: ['U+262C']
+skipping digram-for-lesser-yin, codepoint(s) not in emoji data: ['U+268D']
+skipping die-face-3, codepoint(s) not in emoji data: ['U+2682']
+skipping reversed-rotated-floral-heart-bullet, codepoint(s) not in emoji data: ['U+2619']
+skipping vesta, codepoint(s) not in emoji data: ['U+26B6']
+skipping farsi-symbol, codepoint(s) not in emoji data: ['U+262B']
+skipping left-handed-interlaced-pentagram, codepoint(s) not in emoji data: ['U+26E6']
+skipping black-draughts-man, codepoint(s) not in emoji data: ['U+26C2']
+skipping quarter-note, codepoint(s) not in emoji data: ['U+2669']
+skipping black-chess-rook, codepoint(s) not in emoji data: ['U+265C']
+skipping earth again
+skipping disabled-car, codepoint(s) not in emoji data: ['U+26CD']
+skipping white-chess-queen, codepoint(s) not in emoji data: ['U+2655']
+skipping squared-saltire again
+skipping ankh, codepoint(s) not in emoji data: ['U+2625']
+skipping trigram-for-lake, codepoint(s) not in emoji data: ['U+2631']
+skipping eighth-note, codepoint(s) not in emoji data: ['U+266A']
+skipping restricted-left-entry-1, codepoint(s) not in emoji data: ['U+26E0']
+skipping white-shogi-piece, codepoint(s) not in emoji data: ['U+2616']
+skipping black-shogi-piece, codepoint(s) not in emoji data: ['U+2617']
+skipping interlocked-female-and-male-sign again
+skipping flower, codepoint(s) not in emoji data: ['U+2698']
+skipping black-cross-on-shield, codepoint(s) not in emoji data: ['U+26E8']
+skipping left-writing-hand again
+skipping white-left-pointing-index again
+skipping heavy-white-down-pointing-triangle, codepoint(s) not in emoji data: ['U+26DB']
+skipping black-left-pointing-index again
+skipping map-symbol-for-lighthouse, codepoint(s) not in emoji data: ['U+26EF']
+skipping trigram-for-earth, codepoint(s) not in emoji data: ['U+2637']
+skipping descending-node, codepoint(s) not in emoji data: ['U+260B']
+skipping black-draughts-king, codepoint(s) not in emoji data: ['U+26C3']
+skipping black-chess-queen, codepoint(s) not in emoji data: ['U+265B']
+skipping white-down-pointing-index again
+skipping right-speaker-with-three-sound-waves again
+skipping chiron, codepoint(s) not in emoji data: ['U+26B7']
+skipping die-face-4, codepoint(s) not in emoji data: ['U+2683']
+skipping staff-of-hermes, codepoint(s) not in emoji data: ['U+269A']
+skipping digram-for-lesser-yang, codepoint(s) not in emoji data: ['U+268E']
+skipping cup-on-black-square, codepoint(s) not in emoji data: ['U+26FE']
+skipping cross-pommee, codepoint(s) not in emoji data: ['U+1F542']
+skipping east-syriac-cross, codepoint(s) not in emoji data: ['U+2671']
+skipping ballot-box again
+skipping black-truck, codepoint(s) not in emoji data: ['U+26DF']
+skipping castle, codepoint(s) not in emoji data: ['U+26EB']
+skipping trigram-for-thunder, codepoint(s) not in emoji data: ['U+2633']
+skipping die-face-2, codepoint(s) not in emoji data: ['U+2681']
+skipping recycling-symbol-for-type-2-plastics again
+skipping white-draughts-king, codepoint(s) not in emoji data: ['U+26C1']
+skipping juno, codepoint(s) not in emoji data: ['U+26B5']
+skipping white-chess-rook, codepoint(s) not in emoji data: ['U+2656']
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate, codepoint(s) not in emoji data: ['U+26BC']
+skipping car-sliding, codepoint(s) not in emoji data: ['U+26D0']
+skipping white-flag-with-horizontal-middle-black-stripe, codepoint(s) not in emoji data: ['U+26FF']
+skipping pentagram, codepoint(s) not in emoji data: ['U+26E4']
+skipping divorce-symbol, codepoint(s) not in emoji data: ['U+26AE']
+skipping lightning, codepoint(s) not in emoji data: ['U+2607']
+skipping trigram-for-mountain, codepoint(s) not in emoji data: ['U+2636']
+skipping black-left-lane-merge, codepoint(s) not in emoji data: ['U+26D8']
+skipping last-quarter-moon, codepoint(s) not in emoji data: ['U+263E']
+skipping ascending-node, codepoint(s) not in emoji data: ['U+260A']
+skipping left-closed-entry, codepoint(s) not in emoji data: ['U+26DC']
+skipping white-right-pointing-index again
+skipping restricted-left-entry-2, codepoint(s) not in emoji data: ['U+26E1']
+skipping hammer-and-sickle, codepoint(s) not in emoji data: ['U+262D']
+skipping alternate-one-way-left-way-traffic, codepoint(s) not in emoji data: ['U+26D5']
+skipping heavy-latin-cross again
+skipping music-sharp-sign, codepoint(s) not in emoji data: ['U+266F']
+skipping white-left-lane-merge, codepoint(s) not in emoji data: ['U+26D9']
+skipping male-with-stroke-sign again
+skipping doubled-male-sign again
+skipping white-chess-pawn, codepoint(s) not in emoji data: ['U+2659']
+skipping beamed-sixteenth-notes, codepoint(s) not in emoji data: ['U+266C']
+skipping recycling-symbol-for-type-1-plastics again
+skipping trigram-for-fire, codepoint(s) not in emoji data: ['U+2632']
+skipping historic-site, codepoint(s) not in emoji data: ['U+26EC']
+skipping ballot-box-with-x again
+skipping first-quarter-moon, codepoint(s) not in emoji data: ['U+263D']
+skipping right-handed-interlaced-pentagram, codepoint(s) not in emoji data: ['U+26E5']
+skipping male-with-stroke-and-male-and-female-sign again
+skipping black-moon-lilith, codepoint(s) not in emoji data: ['U+26B8']
+skipping circled-cross-pommee, codepoint(s) not in emoji data: ['U+1F540']
+skipping right-speaker again
+skipping white-chess-knight, codepoint(s) not in emoji data: ['U+2658']
+skipping beamed-eighth-notes, codepoint(s) not in emoji data: ['U+266B']
+skipping notched-left-semicircle-with-three-dots, codepoint(s) not in emoji data: ['U+1F543']
+skipping west-syriac-cross, codepoint(s) not in emoji data: ['U+2670']
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+1F591', 'U+1F3FB']
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+1F592', 'U+1F3FB']
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+1F593', 'U+1F3FB']
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-1-2, codepoint(s) not in emoji data: ['U+1F58E', 'U+1F3FB']
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+1F58E', 'U+1F3FC']
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+1F591', 'U+1F3FC']
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+1F592', 'U+1F3FC']
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-3, codepoint(s) not in emoji data: ['U+1F593', 'U+1F3FC']
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+1F58E', 'U+1F3FD']
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+1F593', 'U+1F3FD']
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+1F591', 'U+1F3FD']
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-4, codepoint(s) not in emoji data: ['U+1F592', 'U+1F3FD']
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+1F591', 'U+1F3FE']
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+1F593', 'U+1F3FE']
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+1F58E', 'U+1F3FE']
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-5, codepoint(s) not in emoji data: ['U+1F592', 'U+1F3FE']
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+1F58E', 'U+1F3FF']
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+1F593', 'U+1F3FF']
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+1F592', 'U+1F3FF']
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-6, codepoint(s) not in emoji data: ['U+1F591', 'U+1F3FF']
+renderings and updating Experience 8.5
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping heavy-latin-cross again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping white-latin-cross again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping black-circle-with-white-dot-right again
+skipping reversed-thumbs-down-sign again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping digram-for-greater-yang again
+skipping mercury again
+skipping medium-small-white-circle again
+skipping sextile again
+skipping universal-recycling-symbol again
+skipping cross-pommee-with-half-circle-below again
+skipping male-and-female-sign again
+skipping right-speaker-with-one-sound-wave again
+skipping partially-recycled-paper-symbol again
+skipping eighth-note again
+skipping interlocked-female-and-male-sign again
+skipping right-speaker again
+skipping circled-cross-pommee again
+skipping black-moon-lilith again
+skipping recycling-symbol-for-type-1-plastics again
+skipping flower again
+skipping left-writing-hand again
+skipping cross-pommee again
+skipping east-syriac-cross again
+skipping beamed-sixteenth-notes again
+skipping white-chess-pawn again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping right-speaker-with-three-sound-waves again
+skipping chiron again
+skipping die-face-4 again
+skipping staff-of-hermes again
+skipping digram-for-lesser-yang again
+skipping die-face-2 again
+skipping white-draughts-king again
+skipping juno again
+skipping white-chess-rook again
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate again
+skipping quincunx again
+skipping vertical-male-with-stroke-sign again
+skipping jupiter again
+skipping white-chess-bishop again
+skipping pallas again
+skipping black-chess-king again
+skipping white-draughts-man again
+skipping die-face-1 again
+skipping digram-for-greater-yin again
+skipping turned-white-shogi-piece again
+skipping recycling-symbol-for-type-4-plastics again
+skipping music-flat-sign again
+skipping reversed-thumbs-up-sign again
+skipping black-circle-with-two-white-dots again
+skipping conjunction again
+skipping descending-node again
+skipping white-down-pointing-index again
+skipping cup-on-black-square again
+skipping ballot-box again
+skipping white-left-lane-merge again
+skipping ballot-box-with-x again
+skipping white-right-pointing-index again
+skipping ascending-node again
+skipping black-left-lane-merge again
+skipping lightning again
+skipping white-flag-with-horizontal-middle-black-stripe again
+skipping black-left-pointing-index again
+skipping japanese-bank-symbol again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-sun again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping triangle-with-rounded-corners again
+skipping prohibited-sign again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+skipping black-truck again
+skipping castle again
+skipping trigram-for-thunder again
+skipping car-sliding again
+skipping pentagram again
+skipping last-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping first-quarter-moon again
+skipping historic-site again
+skipping trigram-for-fire again
+skipping alternate-one-way-left-way-traffic again
+skipping hammer-and-sickle again
+skipping restricted-left-entry-2 again
+skipping left-closed-entry again
+skipping trigram-for-mountain again
+skipping trigram-for-earth again
+skipping map-symbol-for-lighthouse again
+skipping heavy-white-down-pointing-triangle again
+skipping restricted-left-entry-1 again
+skipping astronomical-symbol-for-uranus again
+skipping white-sun-with-rays again
+skipping sun again
+skipping black-two-way-left-way-traffic again
+skipping gear-without-hub again
+skipping trigram-for-water again
+skipping caution-sign again
+skipping drive-slow-sign again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping white-two-way-left-way-traffic again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping thunderstorm again
+skipping black-smiling-face again
+skipping white-flag again
+skipping die-face-5 again
+skipping three-lines-converging-left again
+skipping monogram-for-yin again
+skipping white-diamond-in-square again
+skipping pluto again
+skipping squared-key again
+skipping black-chess-knight again
+skipping black-chess-bishop again
+skipping neptune again
+skipping crossing-lanes again
+skipping die-face-6 again
+skipping black-flag again
+skipping white-circle-with-two-dots again
+skipping monogram-for-yang again
+skipping three-lines-converging-right again
+skipping saturn again
+skipping turned-black-shogi-piece again
+skipping ceres again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-snowman again
+skipping rain again
+skipping neuter again
+skipping recycling-symbol-for-type-7-plastics again
+skipping ringing-bell again
+skipping uranus again
+skipping outlined-white-star again
+skipping white-circle-with-dot-right again
+skipping digram-for-lesser-yin again
+skipping die-face-3 again
+skipping vesta again
+skipping black-draughts-man again
+skipping quarter-note again
+skipping black-chess-rook again
+skipping earth again
+skipping disabled-car again
+skipping white-chess-queen again
+skipping white-chess-king again
+skipping semisextile again
+skipping black-draughts-king again
+skipping black-chess-queen again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-1-2 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-4 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-5 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating Experience 8.1
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping digram-for-greater-yin again
+skipping mercury again
+skipping medium-small-white-circle again
+skipping sextile again
+skipping universal-recycling-symbol again
+skipping cross-pommee-with-half-circle-below again
+skipping male-and-female-sign again
+skipping right-speaker-with-one-sound-wave again
+skipping partially-recycled-paper-symbol again
+skipping eighth-note again
+skipping interlocked-female-and-male-sign again
+skipping right-speaker again
+skipping circled-cross-pommee again
+skipping black-moon-lilith again
+skipping recycling-symbol-for-type-1-plastics again
+skipping flower again
+skipping left-writing-hand again
+skipping cross-pommee again
+skipping east-syriac-cross again
+skipping beamed-sixteenth-notes again
+skipping white-chess-pawn again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping heavy-latin-cross again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping black-chess-queen again
+skipping right-speaker-with-three-sound-waves again
+skipping chiron again
+skipping die-face-4 again
+skipping staff-of-hermes again
+skipping digram-for-lesser-yang again
+skipping die-face-2 again
+skipping white-draughts-king again
+skipping juno again
+skipping white-chess-rook again
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate again
+skipping quincunx again
+skipping vertical-male-with-stroke-sign again
+skipping jupiter again
+skipping white-chess-bishop again
+skipping pallas again
+skipping black-chess-king again
+skipping white-draughts-man again
+skipping die-face-1 again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping white-latin-cross again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping black-circle-with-white-dot-right again
+skipping reversed-thumbs-down-sign again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping turned-white-shogi-piece again
+skipping recycling-symbol-for-type-4-plastics again
+skipping music-flat-sign again
+skipping reversed-thumbs-up-sign again
+skipping black-circle-with-two-white-dots again
+skipping conjunction again
+skipping descending-node again
+skipping white-down-pointing-index again
+skipping cup-on-black-square again
+skipping ballot-box again
+skipping white-left-lane-merge again
+skipping ballot-box-with-x again
+skipping white-right-pointing-index again
+skipping ascending-node again
+skipping black-left-lane-merge again
+skipping lightning again
+skipping white-flag-with-horizontal-middle-black-stripe again
+skipping black-left-pointing-index again
+skipping japanese-bank-symbol again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-sun again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping triangle-with-rounded-corners again
+skipping prohibited-sign again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+skipping black-truck again
+skipping castle again
+skipping trigram-for-thunder again
+skipping car-sliding again
+skipping pentagram again
+skipping last-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping first-quarter-moon again
+skipping historic-site again
+skipping trigram-for-fire again
+skipping alternate-one-way-left-way-traffic again
+skipping hammer-and-sickle again
+skipping restricted-left-entry-2 again
+skipping left-closed-entry again
+skipping trigram-for-mountain again
+skipping trigram-for-earth again
+skipping map-symbol-for-lighthouse again
+skipping heavy-white-down-pointing-triangle again
+skipping restricted-left-entry-1 again
+skipping astronomical-symbol-for-uranus again
+skipping white-sun-with-rays again
+skipping sun again
+skipping black-two-way-left-way-traffic again
+skipping gear-without-hub again
+skipping trigram-for-water again
+skipping caution-sign again
+skipping drive-slow-sign again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping white-two-way-left-way-traffic again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping thunderstorm again
+skipping black-smiling-face again
+skipping white-flag again
+skipping die-face-5 again
+skipping three-lines-converging-left again
+skipping monogram-for-yin again
+skipping white-diamond-in-square again
+skipping pluto again
+skipping squared-key again
+skipping black-chess-knight again
+skipping black-chess-bishop again
+skipping neptune again
+skipping crossing-lanes again
+skipping digram-for-greater-yang again
+skipping die-face-6 again
+skipping black-flag again
+skipping white-circle-with-two-dots again
+skipping monogram-for-yang again
+skipping three-lines-converging-right again
+skipping saturn again
+skipping turned-black-shogi-piece again
+skipping ceres again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-snowman again
+skipping rain again
+skipping neuter again
+skipping recycling-symbol-for-type-7-plastics again
+skipping ringing-bell again
+skipping uranus again
+skipping outlined-white-star again
+skipping white-circle-with-dot-right again
+skipping digram-for-lesser-yin again
+skipping die-face-3 again
+skipping vesta again
+skipping black-draughts-man again
+skipping quarter-note again
+skipping black-chess-rook again
+skipping earth again
+skipping disabled-car again
+skipping white-chess-queen again
+skipping white-chess-king again
+skipping semisextile again
+skipping black-draughts-king again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-3 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-6 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating Experience 8.0
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping gear-without-hub again
+skipping black-two-way-left-way-traffic again
+skipping sun again
+skipping white-sun-with-rays again
+skipping astronomical-symbol-for-uranus again
+skipping restricted-left-entry-1 again
+skipping heavy-white-down-pointing-triangle again
+skipping map-symbol-for-lighthouse again
+skipping trigram-for-earth again
+skipping trigram-for-mountain again
+skipping left-closed-entry again
+skipping restricted-left-entry-2 again
+skipping hammer-and-sickle again
+skipping alternate-one-way-left-way-traffic again
+skipping trigram-for-fire again
+skipping historic-site again
+skipping first-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping last-quarter-moon again
+skipping pentagram again
+skipping car-sliding again
+skipping trigram-for-thunder again
+skipping castle again
+skipping black-truck again
+skipping chi-rho again
+skipping trigram-for-lake again
+skipping ankh again
+skipping squared-saltire again
+skipping left-handed-interlaced-pentagram again
+skipping reversed-rotated-floral-heart-bullet again
+skipping adi-shakti again
+skipping circled-crossing-lanes again
+skipping farsi-symbol again
+skipping inverted-pentagram again
+skipping caduceus again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping trigram-for-heaven again
+skipping white-left-pointing-index again
+skipping cross-of-jerusalem again
+skipping square-four-corners again
+skipping mercury again
+skipping digram-for-greater-yin again
+skipping die-face-1 again
+skipping white-draughts-man again
+skipping black-chess-king again
+skipping pallas again
+skipping white-chess-bishop again
+skipping jupiter again
+skipping vertical-male-with-stroke-sign again
+skipping quincunx again
+skipping sesquiquadrate again
+skipping horizontal-male-with-stroke-sign again
+skipping white-chess-rook again
+skipping juno again
+skipping white-draughts-king again
+skipping die-face-2 again
+skipping digram-for-lesser-yang again
+skipping staff-of-hermes again
+skipping die-face-4 again
+skipping chiron again
+skipping right-speaker-with-three-sound-waves again
+skipping black-chess-queen again
+skipping black-draughts-king again
+skipping semisextile again
+skipping white-chess-king again
+skipping white-chess-queen again
+skipping disabled-car again
+skipping earth again
+skipping black-chess-rook again
+skipping quarter-note again
+skipping black-draughts-man again
+skipping vesta again
+skipping die-face-3 again
+skipping digram-for-lesser-yin again
+skipping white-circle-with-dot-right again
+skipping outlined-white-star again
+skipping uranus again
+skipping ringing-bell again
+skipping recycling-symbol-for-type-7-plastics again
+skipping neuter again
+skipping rain again
+skipping black-snowman again
+skipping recycling-symbol-for-type-6-plastics again
+skipping ceres again
+skipping turned-black-shogi-piece again
+skipping saturn again
+skipping three-lines-converging-right again
+skipping monogram-for-yang again
+skipping white-circle-with-two-dots again
+skipping black-flag again
+skipping die-face-6 again
+skipping digram-for-greater-yang again
+skipping crossing-lanes again
+skipping neptune again
+skipping black-chess-bishop again
+skipping black-chess-knight again
+skipping squared-key again
+skipping pluto again
+skipping white-diamond-in-square again
+skipping monogram-for-yin again
+skipping three-lines-converging-left again
+skipping die-face-5 again
+skipping white-flag again
+skipping black-smiling-face again
+skipping thunderstorm again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping white-two-way-left-way-traffic again
+skipping trigram-for-wind again
+skipping gear-with-handles again
+skipping drive-slow-sign again
+skipping caution-sign again
+skipping trigram-for-water again
+skipping white-chess-pawn again
+skipping beamed-sixteenth-notes again
+skipping east-syriac-cross again
+skipping cross-pommee again
+skipping left-writing-hand again
+skipping flower again
+skipping recycling-symbol-for-type-1-plastics again
+skipping black-moon-lilith again
+skipping circled-cross-pommee again
+skipping right-speaker again
+skipping interlocked-female-and-male-sign again
+skipping eighth-note again
+skipping partially-recycled-paper-symbol again
+skipping right-speaker-with-one-sound-wave again
+skipping male-and-female-sign again
+skipping cross-pommee-with-half-circle-below again
+skipping universal-recycling-symbol again
+skipping sextile again
+skipping medium-small-white-circle again
+skipping prohibited-sign again
+skipping triangle-with-rounded-corners again
+skipping white-telephone again
+skipping cross-of-lorraine again
+skipping black-right-pointing-index again
+skipping opposition again
+skipping headstone-graveyard-symbol again
+skipping white-shogi-piece again
+skipping white-sun again
+skipping black-shogi-piece again
+skipping black-cross-on-shield again
+skipping japanese-bank-symbol again
+skipping black-left-pointing-index again
+skipping white-flag-with-horizontal-middle-black-stripe again
+skipping lightning again
+skipping black-left-lane-merge again
+skipping ascending-node again
+skipping white-right-pointing-index again
+skipping ballot-box-with-x again
+skipping white-left-lane-merge again
+skipping ballot-box again
+skipping cup-on-black-square again
+skipping white-down-pointing-index again
+skipping descending-node again
+skipping conjunction again
+skipping black-circle-with-two-white-dots again
+skipping reversed-thumbs-up-sign again
+skipping music-flat-sign again
+skipping recycling-symbol-for-type-4-plastics again
+skipping turned-white-shogi-piece again
+skipping notched-right-semicircle-with-three-dots again
+skipping unmarried-partnership-symbol again
+skipping recycling-symbol-for-type-5-plastics again
+skipping music-natural-sign again
+skipping recycling-symbol-for-generic-materials again
+skipping reversed-thumbs-down-sign again
+skipping black-circle-with-white-dot-right again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping recycled-paper-symbol again
+skipping doubled-female-sign again
+skipping white-latin-cross again
+skipping recycling-symbol-for-type-3-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping divorce-symbol again
+skipping heavy-latin-cross again
+skipping doubled-male-sign again
+skipping music-sharp-sign again
+skipping notched-left-semicircle-with-three-dots again
+skipping west-syriac-cross again
+skipping beamed-eighth-notes again
+skipping white-chess-knight again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping male-with-stroke-sign again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating TouchWiz 7.1
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping digram-for-lesser-yin again
+skipping digram-for-greater-yin again
+skipping die-face-1 again
+skipping white-draughts-man again
+skipping black-chess-king again
+skipping pallas again
+skipping white-chess-bishop again
+skipping jupiter again
+skipping vertical-male-with-stroke-sign again
+skipping quincunx again
+skipping sesquiquadrate again
+skipping horizontal-male-with-stroke-sign again
+skipping white-chess-rook again
+skipping juno again
+skipping white-draughts-king again
+skipping die-face-2 again
+skipping digram-for-lesser-yang again
+skipping staff-of-hermes again
+skipping die-face-4 again
+skipping chiron again
+skipping right-speaker-with-three-sound-waves again
+skipping black-chess-queen again
+skipping black-draughts-king again
+skipping semisextile again
+skipping white-chess-king again
+skipping white-chess-queen again
+skipping disabled-car again
+skipping earth again
+skipping black-chess-rook again
+skipping quarter-note again
+skipping black-draughts-man again
+skipping vesta again
+skipping die-face-3 again
+skipping japanese-bank-symbol again
+skipping black-left-pointing-index again
+skipping white-flag-with-horizontal-middle-black-stripe again
+skipping lightning again
+skipping black-left-lane-merge again
+skipping ascending-node again
+skipping white-right-pointing-index again
+skipping ballot-box-with-x again
+skipping white-left-lane-merge again
+skipping ballot-box again
+skipping cup-on-black-square again
+skipping white-down-pointing-index again
+skipping descending-node again
+skipping conjunction again
+skipping black-circle-with-two-white-dots again
+skipping reversed-thumbs-up-sign again
+skipping music-flat-sign again
+skipping recycling-symbol-for-type-4-plastics again
+skipping east-syriac-cross again
+skipping cross-pommee again
+skipping left-writing-hand again
+skipping flower again
+skipping recycling-symbol-for-type-1-plastics again
+skipping black-moon-lilith again
+skipping circled-cross-pommee again
+skipping right-speaker again
+skipping interlocked-female-and-male-sign again
+skipping eighth-note again
+skipping partially-recycled-paper-symbol again
+skipping right-speaker-with-one-sound-wave again
+skipping male-and-female-sign again
+skipping cross-pommee-with-half-circle-below again
+skipping universal-recycling-symbol again
+skipping sextile again
+skipping medium-small-white-circle again
+skipping neptune again
+skipping crossing-lanes again
+skipping digram-for-greater-yang again
+skipping die-face-6 again
+skipping black-flag again
+skipping white-circle-with-two-dots again
+skipping monogram-for-yang again
+skipping three-lines-converging-right again
+skipping saturn again
+skipping turned-black-shogi-piece again
+skipping ceres again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-snowman again
+skipping rain again
+skipping neuter again
+skipping recycling-symbol-for-type-7-plastics again
+skipping ringing-bell again
+skipping uranus again
+skipping outlined-white-star again
+skipping white-circle-with-dot-right again
+skipping mercury again
+skipping beamed-sixteenth-notes again
+skipping white-chess-pawn again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping heavy-latin-cross again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping white-latin-cross again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping black-circle-with-white-dot-right again
+skipping reversed-thumbs-down-sign again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping turned-white-shogi-piece again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-sun again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping triangle-with-rounded-corners again
+skipping prohibited-sign again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+skipping black-truck again
+skipping castle again
+skipping trigram-for-thunder again
+skipping car-sliding again
+skipping pentagram again
+skipping last-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping first-quarter-moon again
+skipping historic-site again
+skipping trigram-for-fire again
+skipping alternate-one-way-left-way-traffic again
+skipping hammer-and-sickle again
+skipping restricted-left-entry-2 again
+skipping left-closed-entry again
+skipping trigram-for-mountain again
+skipping trigram-for-earth again
+skipping map-symbol-for-lighthouse again
+skipping heavy-white-down-pointing-triangle again
+skipping restricted-left-entry-1 again
+skipping astronomical-symbol-for-uranus again
+skipping white-sun-with-rays again
+skipping sun again
+skipping black-two-way-left-way-traffic again
+skipping gear-without-hub again
+skipping trigram-for-water again
+skipping caution-sign again
+skipping drive-slow-sign again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping white-two-way-left-way-traffic again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping thunderstorm again
+skipping black-smiling-face again
+skipping white-flag again
+skipping die-face-5 again
+skipping three-lines-converging-left again
+skipping monogram-for-yin again
+skipping white-diamond-in-square again
+skipping pluto again
+skipping squared-key again
+skipping black-chess-knight again
+skipping black-chess-bishop again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-1-2 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-3 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-3 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-4 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-5 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-5 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-5 again
+skipping left-writing-hand-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-raised-hand-with-fingers-splayed-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-down-sign-emoji-modifier-fitzpatrick-type-6 again
+skipping reversed-thumbs-up-sign-emoji-modifier-fitzpatrick-type-6 again
+renderings and updating TouchWiz 7.0
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping black-truck again
+skipping castle again
+skipping trigram-for-thunder again
+skipping car-sliding again
+skipping pentagram again
+skipping last-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping first-quarter-moon again
+skipping historic-site again
+skipping trigram-for-fire again
+skipping alternate-one-way-left-way-traffic again
+skipping hammer-and-sickle again
+skipping restricted-left-entry-2 again
+skipping left-closed-entry again
+skipping trigram-for-mountain again
+skipping trigram-for-earth again
+skipping map-symbol-for-lighthouse again
+skipping heavy-white-down-pointing-triangle again
+skipping restricted-left-entry-1 again
+skipping astronomical-symbol-for-uranus again
+skipping white-sun-with-rays again
+skipping sun again
+skipping black-two-way-left-way-traffic again
+skipping gear-without-hub again
+skipping trigram-for-water again
+skipping caution-sign again
+skipping drive-slow-sign again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping white-two-way-left-way-traffic again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping thunderstorm again
+skipping black-smiling-face again
+skipping white-flag again
+skipping die-face-5 again
+skipping three-lines-converging-left again
+skipping monogram-for-yin again
+skipping white-diamond-in-square again
+skipping pluto again
+skipping squared-key again
+skipping black-chess-knight again
+skipping black-chess-bishop again
+skipping neptune again
+skipping crossing-lanes again
+skipping digram-for-greater-yang again
+skipping die-face-6 again
+skipping black-flag again
+skipping white-circle-with-two-dots again
+skipping monogram-for-yang again
+skipping three-lines-converging-right again
+skipping saturn again
+skipping turned-black-shogi-piece again
+skipping ceres again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-snowman again
+skipping chiron again
+skipping die-face-4 again
+skipping staff-of-hermes again
+skipping digram-for-lesser-yang again
+skipping die-face-2 again
+skipping white-draughts-king again
+skipping juno again
+skipping white-chess-rook again
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate again
+skipping quincunx again
+skipping vertical-male-with-stroke-sign again
+skipping jupiter again
+skipping white-chess-bishop again
+skipping pallas again
+skipping black-chess-king again
+skipping white-draughts-man again
+skipping die-face-1 again
+skipping digram-for-greater-yin again
+skipping right-speaker-with-three-sound-waves again
+skipping black-chess-queen again
+skipping black-draughts-king again
+skipping semisextile again
+skipping white-chess-king again
+skipping white-chess-queen again
+skipping disabled-car again
+skipping earth again
+skipping black-chess-rook again
+skipping quarter-note again
+skipping black-draughts-man again
+skipping vesta again
+skipping die-face-3 again
+skipping digram-for-lesser-yin again
+skipping white-circle-with-dot-right again
+skipping outlined-white-star again
+skipping uranus again
+skipping ringing-bell again
+skipping recycling-symbol-for-type-7-plastics again
+skipping neuter again
+skipping rain again
+skipping medium-small-white-circle again
+skipping sextile again
+skipping universal-recycling-symbol again
+skipping cross-pommee-with-half-circle-below again
+skipping male-and-female-sign again
+skipping right-speaker-with-one-sound-wave again
+skipping partially-recycled-paper-symbol again
+skipping eighth-note again
+skipping interlocked-female-and-male-sign again
+skipping right-speaker again
+skipping circled-cross-pommee again
+skipping black-moon-lilith again
+skipping recycling-symbol-for-type-1-plastics again
+skipping flower again
+skipping left-writing-hand again
+skipping cross-pommee again
+skipping east-syriac-cross again
+skipping beamed-sixteenth-notes again
+skipping white-chess-pawn again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping heavy-latin-cross again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping white-latin-cross again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping black-circle-with-white-dot-right again
+skipping reversed-thumbs-down-sign again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping turned-white-shogi-piece again
+skipping recycling-symbol-for-type-4-plastics again
+skipping music-flat-sign again
+skipping reversed-thumbs-up-sign again
+skipping black-circle-with-two-white-dots again
+skipping conjunction again
+skipping descending-node again
+skipping white-down-pointing-index again
+skipping cup-on-black-square again
+skipping ballot-box again
+skipping white-left-lane-merge again
+skipping ballot-box-with-x again
+skipping white-right-pointing-index again
+skipping ascending-node again
+skipping black-left-lane-merge again
+skipping lightning again
+skipping white-flag-with-horizontal-middle-black-stripe again
+skipping black-left-pointing-index again
+skipping japanese-bank-symbol again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-sun again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping triangle-with-rounded-corners again
+skipping prohibited-sign again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping mercury again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+renderings and updating TouchWiz 6.0
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping lips again
+skipping reversed-thumbs-up-sign again
+skipping right-speaker-with-three-sound-waves again
+skipping ringing-bell again
+skipping trigram-for-heaven again
+skipping white-left-pointing-index again
+skipping cross-of-jerusalem again
+skipping square-four-corners again
+skipping white-telephone again
+skipping cross-of-lorraine again
+skipping black-right-pointing-index again
+skipping opposition again
+skipping headstone-graveyard-symbol again
+skipping white-shogi-piece again
+skipping black-shogi-piece again
+skipping black-cross-on-shield again
+skipping black-left-pointing-index again
+skipping lightning again
+skipping black-left-lane-merge again
+skipping ascending-node again
+skipping white-right-pointing-index again
+skipping medium-small-white-circle again
+skipping sextile again
+skipping ballot-box-with-x again
+skipping white-left-lane-merge again
+skipping ballot-box again
+skipping universal-recycling-symbol again
+skipping cup-on-black-square again
+skipping white-down-pointing-index again
+skipping descending-node again
+skipping conjunction again
+skipping black-star, codepoint(s) not in emoji data: ['U+2605']
+skipping black-circle-with-two-white-dots again
+skipping music-flat-sign again
+skipping recycling-symbol-for-type-4-plastics again
+skipping turned-white-shogi-piece again
+skipping notched-right-semicircle-with-three-dots again
+skipping unmarried-partnership-symbol again
+skipping recycling-symbol-for-type-5-plastics again
+skipping music-natural-sign again
+skipping cross-pommee-with-half-circle-below again
+skipping male-and-female-sign again
+skipping right-speaker-with-one-sound-wave again
+skipping partially-recycled-paper-symbol again
+skipping eighth-note again
+skipping interlocked-female-and-male-sign again
+skipping right-speaker again
+skipping circled-cross-pommee again
+skipping black-moon-lilith again
+skipping recycling-symbol-for-type-1-plastics again
+skipping flower again
+skipping left-writing-hand again
+skipping cross-pommee again
+skipping east-syriac-cross again
+skipping beamed-sixteenth-notes again
+skipping white-chess-pawn again
+skipping male-with-stroke-sign again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping doubled-female-sign again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-circle-with-white-dot-right again
+skipping recycling-symbol-for-generic-materials again
+skipping recycled-paper-symbol again
+skipping ceres again
+skipping turned-black-shogi-piece again
+skipping saturn again
+skipping three-lines-converging-right again
+skipping monogram-for-yang again
+skipping white-circle-with-two-dots again
+skipping black-flag again
+skipping die-face-6 again
+skipping digram-for-greater-yang again
+skipping crossing-lanes again
+skipping neptune again
+skipping black-chess-bishop again
+skipping black-chess-knight again
+skipping squared-key again
+skipping pluto again
+skipping white-diamond-in-square again
+skipping monogram-for-yin again
+skipping three-lines-converging-left again
+skipping die-face-5 again
+skipping white-flag again
+skipping black-smiling-face again
+skipping thunderstorm again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping white-two-way-left-way-traffic again
+skipping trigram-for-wind again
+skipping gear-with-handles again
+skipping drive-slow-sign again
+skipping caution-sign again
+skipping trigram-for-water again
+skipping gear-without-hub again
+skipping black-two-way-left-way-traffic again
+skipping sun again
+skipping white-sun-with-rays again
+skipping astronomical-symbol-for-uranus again
+skipping restricted-left-entry-1 again
+skipping heavy-white-down-pointing-triangle again
+skipping map-symbol-for-lighthouse again
+skipping trigram-for-earth again
+skipping trigram-for-mountain again
+skipping left-closed-entry again
+skipping restricted-left-entry-2 again
+skipping hammer-and-sickle again
+skipping alternate-one-way-left-way-traffic again
+skipping trigram-for-fire again
+skipping historic-site again
+skipping first-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping last-quarter-moon again
+skipping pentagram again
+skipping car-sliding again
+skipping trigram-for-thunder again
+skipping castle again
+skipping black-truck again
+skipping chi-rho again
+skipping trigram-for-lake again
+skipping ankh again
+skipping squared-saltire again
+skipping left-handed-interlaced-pentagram again
+skipping reversed-rotated-floral-heart-bullet again
+skipping adi-shakti again
+skipping circled-crossing-lanes again
+skipping farsi-symbol again
+skipping inverted-pentagram again
+skipping mercury again
+skipping caduceus again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping black-snowman again
+skipping rain again
+skipping neuter again
+skipping recycling-symbol-for-type-7-plastics again
+skipping uranus again
+skipping outlined-white-star again
+skipping white-circle-with-dot-right again
+skipping digram-for-lesser-yin again
+skipping die-face-3 again
+skipping vesta again
+skipping black-draughts-man again
+skipping quarter-note again
+skipping black-chess-rook again
+skipping earth again
+skipping disabled-car again
+skipping white-chess-queen again
+skipping white-chess-king again
+skipping semisextile again
+skipping black-draughts-king again
+skipping black-chess-queen again
+skipping chiron again
+skipping die-face-4 again
+skipping staff-of-hermes again
+skipping digram-for-lesser-yang again
+skipping die-face-2 again
+skipping white-draughts-king again
+skipping juno again
+skipping white-chess-rook again
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate again
+skipping quincunx again
+skipping vertical-male-with-stroke-sign again
+skipping jupiter again
+skipping white-chess-bishop again
+skipping pallas again
+skipping black-chess-king again
+skipping white-draughts-man again
+skipping die-face-1 again
+skipping digram-for-greater-yin again
+skipping reversed-thumbs-down-sign again
+skipping reversed-raised-hand-with-fingers-splayed again
+skipping white-latin-cross again
+skipping heavy-latin-cross again
+skipping prohibited-sign again
+skipping triangle-with-rounded-corners again
+skipping white-sun again
+skipping japanese-bank-symbol again
+skipping white-flag-with-horizontal-middle-black-stripe again
+renderings and updating TouchWiz 5.1
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping male-and-female-sign again
+skipping cross-pommee-with-half-circle-below again
+skipping universal-recycling-symbol again
+skipping sextile again
+skipping medium-small-white-circle again
+skipping crossing-lanes again
+skipping digram-for-greater-yang again
+skipping male-with-stroke-sign again
+skipping black-flag again
+skipping white-circle-with-two-dots again
+skipping monogram-for-yang again
+skipping three-lines-converging-right again
+skipping saturn again
+skipping turned-black-shogi-piece again
+skipping ceres again
+skipping recycling-symbol-for-type-6-plastics again
+skipping black-snowman again
+skipping rain again
+skipping neuter again
+skipping recycling-symbol-for-type-7-plastics again
+skipping uranus again
+skipping outlined-white-star again
+skipping white-circle-with-dot-right again
+skipping digram-for-lesser-yin again
+skipping die-face-3 again
+skipping vesta again
+skipping black-draughts-man again
+skipping quarter-note again
+skipping black-chess-rook again
+skipping earth again
+skipping disabled-car again
+skipping white-chess-queen again
+skipping white-chess-king again
+skipping semisextile again
+skipping black-draughts-king again
+skipping black-chess-queen again
+skipping chiron again
+skipping die-face-4 again
+skipping staff-of-hermes again
+skipping digram-for-lesser-yang again
+skipping die-face-2 again
+skipping white-draughts-king again
+skipping juno again
+skipping white-chess-rook again
+skipping horizontal-male-with-stroke-sign again
+skipping sesquiquadrate again
+skipping quincunx again
+skipping vertical-male-with-stroke-sign again
+skipping jupiter again
+skipping white-chess-bishop again
+skipping pallas again
+skipping black-chess-king again
+skipping white-draughts-man again
+skipping die-face-1 again
+skipping digram-for-greater-yin again
+skipping die-face-6 again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping black-circle-with-white-dot-right again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping turned-white-shogi-piece again
+skipping recycling-symbol-for-type-4-plastics again
+skipping music-flat-sign again
+skipping black-circle-with-two-white-dots again
+skipping black-star again
+skipping conjunction again
+skipping descending-node again
+skipping white-down-pointing-index again
+skipping cup-on-black-square again
+skipping ballot-box again
+skipping white-left-lane-merge again
+skipping ballot-box-with-x again
+skipping white-right-pointing-index again
+skipping ascending-node again
+skipping black-left-lane-merge again
+skipping lightning again
+skipping black-left-pointing-index again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping mercury again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+skipping black-truck again
+skipping castle again
+skipping trigram-for-thunder again
+skipping car-sliding again
+skipping pentagram again
+skipping last-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping first-quarter-moon again
+skipping historic-site again
+skipping trigram-for-fire again
+skipping alternate-one-way-left-way-traffic again
+skipping hammer-and-sickle again
+skipping restricted-left-entry-2 again
+skipping left-closed-entry again
+skipping trigram-for-mountain again
+skipping trigram-for-earth again
+skipping map-symbol-for-lighthouse again
+skipping heavy-white-down-pointing-triangle again
+skipping restricted-left-entry-1 again
+skipping astronomical-symbol-for-uranus again
+skipping white-sun-with-rays again
+skipping sun again
+skipping black-two-way-left-way-traffic again
+skipping gear-without-hub again
+skipping trigram-for-water again
+skipping caution-sign again
+skipping drive-slow-sign again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping white-two-way-left-way-traffic again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping thunderstorm again
+skipping black-smiling-face again
+skipping white-flag again
+skipping die-face-5 again
+skipping three-lines-converging-left again
+skipping monogram-for-yin again
+skipping white-diamond-in-square again
+skipping pluto again
+skipping white-chess-pawn again
+skipping beamed-sixteenth-notes again
+skipping east-syriac-cross again
+skipping cross-pommee again
+skipping flower again
+skipping recycling-symbol-for-type-1-plastics again
+skipping black-moon-lilith again
+skipping circled-cross-pommee again
+skipping squared-key again
+skipping interlocked-female-and-male-sign again
+skipping black-chess-knight again
+skipping black-chess-bishop again
+skipping neptune again
+skipping eighth-note again
+skipping partially-recycled-paper-symbol again
+renderings and updating TouchWiz 2.0
+skipping black-chess-pawn again
+skipping permanent-paper-sign again
+skipping doubled-female-sign again
+skipping recycled-paper-symbol again
+skipping black-circle-with-white-dot-right again
+skipping recycling-symbol-for-generic-materials again
+skipping music-natural-sign again
+skipping recycling-symbol-for-type-5-plastics again
+skipping unmarried-partnership-symbol again
+skipping notched-right-semicircle-with-three-dots again
+skipping turned-white-shogi-piece again
+skipping male-with-stroke-sign again
+skipping white-chess-pawn again
+skipping beamed-sixteenth-notes again
+skipping east-syriac-cross again
+skipping cross-pommee again
+skipping flower again
+skipping recycling-symbol-for-type-1-plastics again
+skipping black-moon-lilith again
+skipping circled-cross-pommee again
+skipping interlocked-female-and-male-sign again
+skipping eighth-note again
+skipping partially-recycled-paper-symbol again
+skipping male-and-female-sign again
+skipping cross-pommee-with-half-circle-below again
+skipping universal-recycling-symbol again
+skipping sextile again
+skipping medium-small-white-circle again
+skipping white-diamond-in-square again
+skipping monogram-for-yin again
+skipping three-lines-converging-left again
+skipping die-face-5 again
+skipping white-flag again
+skipping black-smiling-face again
+skipping thunderstorm again
+skipping heavy-circle-with-stroke-and-two-dots-above again
+skipping pluto again
+skipping squared-key again
+skipping white-two-way-left-way-traffic again
+skipping drive-slow-sign again
+skipping caution-sign again
+skipping trigram-for-water again
+skipping gear-without-hub again
+skipping black-two-way-left-way-traffic again
+skipping sun again
+skipping white-sun-with-rays again
+skipping astronomical-symbol-for-uranus again
+skipping restricted-left-entry-1 again
+skipping heavy-white-down-pointing-triangle again
+skipping map-symbol-for-lighthouse again
+skipping trigram-for-earth again
+skipping trigram-for-mountain again
+skipping left-closed-entry again
+skipping restricted-left-entry-2 again
+skipping hammer-and-sickle again
+skipping alternate-one-way-left-way-traffic again
+skipping trigram-for-fire again
+skipping digram-for-lesser-yang again
+skipping staff-of-hermes again
+skipping die-face-4 again
+skipping chiron again
+skipping black-chess-queen again
+skipping black-draughts-king again
+skipping semisextile again
+skipping white-chess-king again
+skipping white-chess-queen again
+skipping disabled-car again
+skipping earth again
+skipping black-chess-rook again
+skipping quarter-note again
+skipping black-draughts-man again
+skipping vesta again
+skipping die-face-3 again
+skipping digram-for-lesser-yin again
+skipping white-circle-with-dot-right again
+skipping outlined-white-star again
+skipping uranus again
+skipping recycling-symbol-for-type-7-plastics again
+skipping neuter again
+skipping rain again
+skipping black-snowman again
+skipping historic-site again
+skipping recycling-symbol-for-type-6-plastics again
+skipping ceres again
+skipping turned-black-shogi-piece again
+skipping saturn again
+skipping three-lines-converging-right again
+skipping monogram-for-yang again
+skipping white-circle-with-two-dots again
+skipping black-flag again
+skipping die-face-6 again
+skipping digram-for-greater-yang again
+skipping crossing-lanes again
+skipping neptune again
+skipping black-chess-bishop again
+skipping black-chess-knight again
+skipping trigram-for-heaven again
+skipping falling-diagonal-in-white-circle-in-black-square again
+skipping caduceus again
+skipping black-circle-with-two-white-dots again
+skipping black-star again
+skipping conjunction again
+skipping descending-node again
+skipping white-down-pointing-index again
+skipping cup-on-black-square again
+skipping ballot-box again
+skipping white-left-lane-merge again
+skipping ballot-box-with-x again
+skipping white-right-pointing-index again
+skipping ascending-node again
+skipping black-left-lane-merge again
+skipping lightning again
+skipping black-left-pointing-index again
+skipping black-cross-on-shield again
+skipping black-shogi-piece again
+skipping white-shogi-piece again
+skipping headstone-graveyard-symbol again
+skipping opposition again
+skipping black-right-pointing-index again
+skipping cross-of-lorraine again
+skipping white-telephone again
+skipping square-four-corners again
+skipping cross-of-jerusalem again
+skipping white-left-pointing-index again
+skipping recycling-symbol-for-type-4-plastics again
+skipping music-flat-sign again
+skipping digram-for-greater-yin again
+skipping die-face-1 again
+skipping white-draughts-man again
+skipping black-chess-king again
+skipping pallas again
+skipping white-chess-bishop again
+skipping jupiter again
+skipping vertical-male-with-stroke-sign again
+skipping quincunx again
+skipping mercury again
+skipping inverted-pentagram again
+skipping farsi-symbol again
+skipping circled-crossing-lanes again
+skipping adi-shakti again
+skipping reversed-rotated-floral-heart-bullet again
+skipping left-handed-interlaced-pentagram again
+skipping squared-saltire again
+skipping ankh again
+skipping trigram-for-lake again
+skipping chi-rho again
+skipping black-truck again
+skipping first-quarter-moon again
+skipping right-handed-interlaced-pentagram again
+skipping last-quarter-moon again
+skipping pentagram again
+skipping car-sliding again
+skipping trigram-for-thunder again
+skipping castle again
+skipping gear-with-handles again
+skipping trigram-for-wind again
+skipping sesquiquadrate again
+skipping horizontal-male-with-stroke-sign again
+skipping white-chess-rook again
+skipping juno again
+skipping white-draughts-king again
+skipping male-with-stroke-and-male-and-female-sign again
+skipping die-face-2 again
+skipping white-chess-knight again
+skipping beamed-eighth-notes again
+skipping west-syriac-cross again
+skipping notched-left-semicircle-with-three-dots again
+skipping music-sharp-sign again
+skipping doubled-male-sign again
+skipping divorce-symbol again
+skipping recycling-symbol-for-type-2-plastics again
+skipping marriage-symbol again
+skipping recycling-symbol-for-type-3-plastics again
+renderings and updating Twemoji 2.5
+skipping shibuya again
+renderings and updating Twemoji 2.4
+skipping shibuya again
+renderings and updating Twemoji 2.3
+skipping shibuya again
+renderings and updating Twemoji 2.2.3
+skipping shibuya again
+renderings and updating Twemoji 2.2.2
+skipping shibuya again
+renderings and updating Twemoji 2.2.1
+skipping shibuya again
+renderings and updating Twemoji 2.2
+skipping shibuya again
+renderings and updating Twemoji 2.1.2
+skipping shibuya again
+renderings and updating Twemoji 2.1
+skipping shibuya again
+renderings and updating Twemoji 2.0
+skipping shibuya again
+renderings and updating Twemoji 1.0
+skipping shibuya again
+- Completed -
+
+Updating EMOJI counts
+- Completed -

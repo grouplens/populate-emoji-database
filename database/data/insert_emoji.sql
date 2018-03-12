@@ -6202,41 +6202,41 @@ INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1638, 2, 'Regional Indicator Symbol Letter Z', '🇿', 'regional-indicator-symbol-letter-z', NULL, 'U+1F1FF', 1, 1, 0, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2534, 1638, 222, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1639, 2, 'Number Sign', '#', 'number-sign', NULL, 'U+23U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2535, 1639, 1, 1),(2536, 1639, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1639, 2, 'Digit Seven', '7', 'digit-seven', NULL, 'U+37U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2535, 1639, 10, 1),(2536, 1639, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1640, 2, 'Digit Eight', '8', 'digit-eight', NULL, 'U+38U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2537, 1640, 11, 1),(2538, 1640, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1640, 2, 'Digit One', '1', 'digit-one', NULL, 'U+31U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2537, 1640, 4, 1),(2538, 1640, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1641, 2, 'Digit Five', '5', 'digit-five', NULL, 'U+35U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2539, 1641, 8, 1),(2540, 1641, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1641, 2, 'Digit Six', '6', 'digit-six', NULL, 'U+36U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2539, 1641, 9, 1),(2540, 1641, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1642, 2, 'Digit One', '1', 'digit-one', NULL, 'U+31U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2541, 1642, 4, 1),(2542, 1642, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1642, 2, 'Digit Four', '4', 'digit-four', NULL, 'U+34U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2541, 1642, 7, 1),(2542, 1642, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1643, 2, 'Digit Zero', '0', 'digit-zero', NULL, 'U+30U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2543, 1643, 3, 1),(2544, 1643, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1643, 2, 'Digit Eight', '8', 'digit-eight', NULL, 'U+38U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2543, 1643, 11, 1),(2544, 1643, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1644, 2, 'Digit Two', '2', 'digit-two', NULL, 'U+32U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2545, 1644, 5, 1),(2546, 1644, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1644, 2, 'Digit Five', '5', 'digit-five', NULL, 'U+35U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2545, 1644, 8, 1),(2546, 1644, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1645, 2, 'Digit Six', '6', 'digit-six', NULL, 'U+36U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2547, 1645, 9, 1),(2548, 1645, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1645, 2, 'Digit Two', '2', 'digit-two', NULL, 'U+32U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2547, 1645, 5, 1),(2548, 1645, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1646, 2, 'Digit Nine', '9', 'digit-nine', NULL, 'U+39U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2549, 1646, 12, 1),(2550, 1646, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1646, 2, 'Digit Three', '3', 'digit-three', NULL, 'U+33U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2549, 1646, 6, 1),(2550, 1646, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1647, 2, 'Digit Seven', '7', 'digit-seven', NULL, 'U+37U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2551, 1647, 10, 1),(2552, 1647, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1647, 2, 'Digit Zero', '0', 'digit-zero', NULL, 'U+30U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2551, 1647, 3, 1),(2552, 1647, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1648, 2, 'Asterisk', '*', 'asterisk', NULL, 'U+2AU+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2553, 1648, 2, 1),(2554, 1648, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1648, 2, 'Digit Nine', '9', 'digit-nine', NULL, 'U+39U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2553, 1648, 12, 1),(2554, 1648, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1649, 2, 'Digit Four', '4', 'digit-four', NULL, 'U+34U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2555, 1649, 7, 1),(2556, 1649, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1649, 2, 'Number Sign', '#', 'number-sign', NULL, 'U+23U+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2555, 1649, 1, 1),(2556, 1649, 1185, 2);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1650, 2, 'Digit Three', '3', 'digit-three', NULL, 'U+33U+FE0F', 2, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2557, 1650, 6, 1),(2558, 1650, 1185, 2);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1650, 2, 'Asterisk', '*', 'asterisk', NULL, 'U+2AU+FE0F', 2, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2557, 1650, 2, 1),(2558, 1650, 1185, 2);
 
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (1651, 3, 'Rolling on the Floor Laughing', '🤣', 'rolling-on-the-floor-laughing', 'people', 'U+1F923', 1, 0, 0, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (2559, 1651, 1068, 1);
@@ -8449,20 +8449,20 @@ INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2387, 4, 'Men Wrestling, Type-3', '🤼🏼‍♂️', 'men-wrestling-type-3', NULL, 'U+1F93CU+1F3FCU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5330, 2387, 1092, 1),(5331, 2387, 480, 2),(5332, 2387, 1183, 3),(5333, 2387, 76, 4),(5334, 2387, 1185, 5);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2388, 4, 'Man Cartwheeling: Medium Skin Tone', '🤸🏽‍♂️', 'man-doing-cartwheel-type-4', NULL, 'U+1F938U+1F3FDU+200DU+2642U+FE0F', 5, 1, 1, 1, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5335, 2388, 1089, 1),(5336, 2388, 481, 2),(5337, 2388, 1183, 3),(5338, 2388, 76, 4),(5339, 2388, 1185, 5);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2388, 4, 'Men Wrestling, Type-4', '🤼🏽‍♂️', 'men-wrestling-type-4', NULL, 'U+1F93CU+1F3FDU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5335, 2388, 1092, 1),(5336, 2388, 481, 2),(5337, 2388, 1183, 3),(5338, 2388, 76, 4),(5339, 2388, 1185, 5);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2389, 4, 'Men Wrestling, Type-4', '🤼🏽‍♂️', 'men-wrestling-type-4', NULL, 'U+1F93CU+1F3FDU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5340, 2389, 1092, 1),(5341, 2389, 481, 2),(5342, 2389, 1183, 3),(5343, 2389, 76, 4),(5344, 2389, 1185, 5);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2389, 4, 'Man Cartwheeling: Medium Skin Tone', '🤸🏽‍♂️', 'man-doing-cartwheel-type-4', NULL, 'U+1F938U+1F3FDU+200DU+2642U+FE0F', 5, 1, 1, 1, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5340, 2389, 1089, 1),(5341, 2389, 481, 2),(5342, 2389, 1183, 3),(5343, 2389, 76, 4),(5344, 2389, 1185, 5);
 
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2390, 4, 'Men Wrestling, Type-5', '🤼🏾‍♂️', 'men-wrestling-type-5', NULL, 'U+1F93CU+1F3FEU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5345, 2390, 1092, 1),(5346, 2390, 482, 2),(5347, 2390, 1183, 3),(5348, 2390, 76, 4),(5349, 2390, 1185, 5);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2391, 4, 'Man Cartwheeling: Medium-Dark Skin Tone', '🤸🏾‍♂️', 'man-doing-cartwheel-type-5', NULL, 'U+1F938U+1F3FEU+200DU+2642U+FE0F', 5, 1, 1, 1, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5350, 2391, 1089, 1),(5351, 2391, 482, 2),(5352, 2391, 1183, 3),(5353, 2391, 76, 4),(5354, 2391, 1185, 5);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2391, 4, 'Men Wrestling, Type-6', '🤼🏿‍♂️', 'men-wrestling-type-6', NULL, 'U+1F93CU+1F3FFU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5350, 2391, 1092, 1),(5351, 2391, 483, 2),(5352, 2391, 1183, 3),(5353, 2391, 76, 4),(5354, 2391, 1185, 5);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2392, 4, 'Men Wrestling, Type-6', '🤼🏿‍♂️', 'men-wrestling-type-6', NULL, 'U+1F93CU+1F3FFU+200DU+2642U+FE0F', 5, 1, 1, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5355, 2392, 1092, 1),(5356, 2392, 483, 2),(5357, 2392, 1183, 3),(5358, 2392, 76, 4),(5359, 2392, 1185, 5);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2392, 4, 'Man Cartwheeling: Medium-Dark Skin Tone', '🤸🏾‍♂️', 'man-doing-cartwheel-type-5', NULL, 'U+1F938U+1F3FEU+200DU+2642U+FE0F', 5, 1, 1, 1, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5355, 2392, 1089, 1),(5356, 2392, 482, 2),(5357, 2392, 1183, 3),(5358, 2392, 76, 4),(5359, 2392, 1185, 5);
 
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2393, 4, 'Women Wrestling, Type-1-2', '🤼🏻‍♀️', 'women-wrestling-type-1-2', NULL, 'U+1F93CU+1F3FBU+200DU+2640U+FE0F', 5, 1, 1, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5360, 2393, 1092, 1),(5361, 2393, 479, 2),(5362, 2393, 1183, 3),(5363, 2393, 75, 4),(5364, 2393, 1185, 5);
@@ -8473,11 +8473,11 @@ INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2395, 4, 'Women Wrestling, Type-3', '🤼🏼‍♀️', 'women-wrestling-type-3', NULL, 'U+1F93CU+1F3FCU+200DU+2640U+FE0F', 5, 1, 1, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5370, 2395, 1092, 1),(5371, 2395, 480, 2),(5372, 2395, 1183, 3),(5373, 2395, 75, 4),(5374, 2395, 1185, 5);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2396, 4, 'Women Wrestling, Type-4', '🤼🏽‍♀️', 'women-wrestling-type-4', NULL, 'U+1F93CU+1F3FDU+200DU+2640U+FE0F', 5, 1, 1, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5375, 2396, 1092, 1),(5376, 2396, 481, 2),(5377, 2396, 1183, 3),(5378, 2396, 75, 4),(5379, 2396, 1185, 5);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2396, 4, 'Woman Cartwheeling', '🤸‍♀️', 'woman-doing-cartwheel', 'activity', 'U+1F938U+200DU+2640U+FE0F', 4, 1, 0, 1, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5375, 2396, 1089, 1),(5376, 2396, 1183, 2),(5377, 2396, 75, 3),(5378, 2396, 1185, 4);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2397, 4, 'Woman Cartwheeling', '🤸‍♀️', 'woman-doing-cartwheel', 'activity', 'U+1F938U+200DU+2640U+FE0F', 4, 1, 0, 1, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5380, 2397, 1089, 1),(5381, 2397, 1183, 2),(5382, 2397, 75, 3),(5383, 2397, 1185, 4);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2397, 4, 'Women Wrestling, Type-4', '🤼🏽‍♀️', 'women-wrestling-type-4', NULL, 'U+1F93CU+1F3FDU+200DU+2640U+FE0F', 5, 1, 1, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5379, 2397, 1092, 1),(5380, 2397, 481, 2),(5381, 2397, 1183, 3),(5382, 2397, 75, 4),(5383, 2397, 1185, 5);
 
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2398, 4, 'Women Wrestling, Type-5', '🤼🏾‍♀️', 'women-wrestling-type-5', NULL, 'U+1F93CU+1F3FEU+200DU+2640U+FE0F', 5, 1, 1, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (5384, 2398, 1092, 1),(5385, 2398, 482, 2),(5386, 2398, 1183, 3),(5387, 2398, 75, 4),(5388, 2398, 1185, 5);
@@ -9376,114 +9376,114 @@ INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_
 INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2696, 5, 'Wales', '🏴󠁧󠁢󠁷󠁬󠁳󠁿', 'flag-for-wales', 'flags', 'U+1F3F4U+E0067U+E0062U+E0077U+E006CU+E0073U+E007F', 7, 1, 0, 0, 0, 0);
 INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6365, 2696, 473, 1),(6366, 2696, 1257, 2),(6367, 2696, 1252, 3),(6368, 2696, 1273, 4),(6369, 2696, 1262, 5),(6370, 2696, 1269, 6),(6371, 2696, 1281, 7);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2697, 5, 'Tag Latin Small Letter Y', '󠁹', 'tag-latin-small-letter-y', NULL, 'U+E0079', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6372, 2697, 1275, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2697, 5, 'Tag Digit Four', '󠀴', 'tag-digit-four', NULL, 'U+E0034', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6372, 2697, 1206, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2698, 5, 'Tag Latin Small Letter M', '󠁭', 'tag-latin-small-letter-m', NULL, 'U+E006D', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6373, 2698, 1263, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2698, 5, 'Tag Latin Small Letter H', '󠁨', 'tag-latin-small-letter-h', NULL, 'U+E0068', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6373, 2698, 1258, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2699, 5, 'Tag Latin Small Letter G', '󠁧', 'tag-latin-small-letter-g', NULL, 'U+E0067', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6374, 2699, 1257, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2699, 5, 'Tag Latin Small Letter N', '󠁮', 'tag-latin-small-letter-n', NULL, 'U+E006E', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6374, 2699, 1264, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2700, 5, 'Tag Latin Small Letter E', '󠁥', 'tag-latin-small-letter-e', NULL, 'U+E0065', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6375, 2700, 1255, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2700, 5, 'Tag Latin Small Letter L', '󠁬', 'tag-latin-small-letter-l', NULL, 'U+E006C', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6375, 2700, 1262, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2701, 5, 'Tag Latin Small Letter W', '󠁷', 'tag-latin-small-letter-w', NULL, 'U+E0077', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6376, 2701, 1273, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2701, 5, 'Tag Latin Small Letter K', '󠁫', 'tag-latin-small-letter-k', NULL, 'U+E006B', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6376, 2701, 1261, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2702, 5, 'Tag Digit Zero', '󠀰', 'tag-digit-zero', NULL, 'U+E0030', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6377, 2702, 1202, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2702, 5, 'Tag Latin Small Letter X', '󠁸', 'tag-latin-small-letter-x', NULL, 'U+E0078', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6377, 2702, 1274, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2703, 5, 'Tag Latin Small Letter U', '󠁵', 'tag-latin-small-letter-u', NULL, 'U+E0075', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6378, 2703, 1271, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2703, 5, 'Tag Latin Small Letter B', '󠁢', 'tag-latin-small-letter-b', NULL, 'U+E0062', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6378, 2703, 1252, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2704, 5, 'Tag Latin Small Letter Q', '󠁱', 'tag-latin-small-letter-q', NULL, 'U+E0071', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6379, 2704, 1267, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2704, 5, 'Tag Digit Two', '󠀲', 'tag-digit-two', NULL, 'U+E0032', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6379, 2704, 1204, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2705, 5, 'Tag Digit Five', '󠀵', 'tag-digit-five', NULL, 'U+E0035', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6380, 2705, 1207, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2705, 5, 'Tag Latin Small Letter V', '󠁶', 'tag-latin-small-letter-v', NULL, 'U+E0076', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6380, 2705, 1272, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2706, 5, 'Cancel Tag', '󠁿', 'cancel-tag', NULL, 'U+E007F', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6381, 2706, 1281, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2706, 5, 'Tag Digit Six', '󠀶', 'tag-digit-six', NULL, 'U+E0036', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6381, 2706, 1208, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2707, 5, 'Tag Latin Small Letter F', '󠁦', 'tag-latin-small-letter-f', NULL, 'U+E0066', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6382, 2707, 1256, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2707, 5, 'Tag Latin Small Letter a', '󠁡', 'tag-latin-small-letter-a', NULL, 'U+E0061', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6382, 2707, 1251, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2708, 5, 'Tag Digit Eight', '󠀸', 'tag-digit-eight', NULL, 'U+E0038', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6383, 2708, 1210, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2708, 5, 'Tag Latin Small Letter D', '󠁤', 'tag-latin-small-letter-d', NULL, 'U+E0064', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6383, 2708, 1254, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2709, 5, 'Tag Digit Four', '󠀴', 'tag-digit-four', NULL, 'U+E0034', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6384, 2709, 1206, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2709, 5, 'Tag Latin Small Letter S', '󠁳', 'tag-latin-small-letter-s', NULL, 'U+E0073', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6384, 2709, 1269, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2710, 5, 'Tag Digit Seven', '󠀷', 'tag-digit-seven', NULL, 'U+E0037', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6385, 2710, 1209, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2710, 5, 'Tag Latin Small Letter R', '󠁲', 'tag-latin-small-letter-r', NULL, 'U+E0072', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6385, 2710, 1268, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2711, 5, 'Tag Digit Two', '󠀲', 'tag-digit-two', NULL, 'U+E0032', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6386, 2711, 1204, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2711, 5, 'Tag Latin Small Letter P', '󠁰', 'tag-latin-small-letter-p', NULL, 'U+E0070', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6386, 2711, 1266, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2712, 5, 'Tag Latin Small Letter C', '󠁣', 'tag-latin-small-letter-c', NULL, 'U+E0063', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6387, 2712, 1253, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2712, 5, 'Tag Latin Small Letter J', '󠁪', 'tag-latin-small-letter-j', NULL, 'U+E006A', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6387, 2712, 1260, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2713, 5, 'Tag Latin Small Letter I', '󠁩', 'tag-latin-small-letter-i', NULL, 'U+E0069', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6388, 2713, 1259, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2713, 5, 'Tag Latin Small Letter O', '󠁯', 'tag-latin-small-letter-o', NULL, 'U+E006F', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6388, 2713, 1265, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2714, 5, 'Tag Latin Small Letter Z', '󠁺', 'tag-latin-small-letter-z', NULL, 'U+E007A', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6389, 2714, 1276, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2714, 5, 'Tag Digit Nine', '󠀹', 'tag-digit-nine', NULL, 'U+E0039', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6389, 2714, 1211, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2715, 5, 'Tag Digit Three', '󠀳', 'tag-digit-three', NULL, 'U+E0033', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6390, 2715, 1205, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2715, 5, 'Tag Latin Small Letter T', '󠁴', 'tag-latin-small-letter-t', NULL, 'U+E0074', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6390, 2715, 1270, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2716, 5, 'Tag Digit One', '󠀱', 'tag-digit-one', NULL, 'U+E0031', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6391, 2716, 1203, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2716, 5, 'Tag Latin Small Letter M', '󠁭', 'tag-latin-small-letter-m', NULL, 'U+E006D', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6391, 2716, 1263, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2717, 5, 'Tag Latin Small Letter L', '󠁬', 'tag-latin-small-letter-l', NULL, 'U+E006C', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6392, 2717, 1262, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2717, 5, 'Tag Latin Small Letter G', '󠁧', 'tag-latin-small-letter-g', NULL, 'U+E0067', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6392, 2717, 1257, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2718, 5, 'Tag Latin Small Letter H', '󠁨', 'tag-latin-small-letter-h', NULL, 'U+E0068', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6393, 2718, 1258, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2718, 5, 'Tag Latin Small Letter E', '󠁥', 'tag-latin-small-letter-e', NULL, 'U+E0065', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6393, 2718, 1255, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2719, 5, 'Tag Latin Small Letter N', '󠁮', 'tag-latin-small-letter-n', NULL, 'U+E006E', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6394, 2719, 1264, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2719, 5, 'Tag Digit Zero', '󠀰', 'tag-digit-zero', NULL, 'U+E0030', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6394, 2719, 1202, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2720, 5, 'Tag Latin Small Letter K', '󠁫', 'tag-latin-small-letter-k', NULL, 'U+E006B', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6395, 2720, 1261, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2720, 5, 'Tag Latin Small Letter U', '󠁵', 'tag-latin-small-letter-u', NULL, 'U+E0075', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6395, 2720, 1271, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2721, 5, 'Tag Latin Small Letter X', '󠁸', 'tag-latin-small-letter-x', NULL, 'U+E0078', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6396, 2721, 1274, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2721, 5, 'Tag Latin Small Letter W', '󠁷', 'tag-latin-small-letter-w', NULL, 'U+E0077', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6396, 2721, 1273, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2722, 5, 'Tag Latin Small Letter B', '󠁢', 'tag-latin-small-letter-b', NULL, 'U+E0062', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6397, 2722, 1252, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2722, 5, 'Tag Digit Five', '󠀵', 'tag-digit-five', NULL, 'U+E0035', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6397, 2722, 1207, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2723, 5, 'Tag Latin Small Letter V', '󠁶', 'tag-latin-small-letter-v', NULL, 'U+E0076', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6398, 2723, 1272, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2723, 5, 'Tag Latin Small Letter Q', '󠁱', 'tag-latin-small-letter-q', NULL, 'U+E0071', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6398, 2723, 1267, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2724, 5, 'Tag Digit Six', '󠀶', 'tag-digit-six', NULL, 'U+E0036', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6399, 2724, 1208, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2724, 5, 'Tag Latin Small Letter F', '󠁦', 'tag-latin-small-letter-f', NULL, 'U+E0066', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6399, 2724, 1256, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2725, 5, 'Tag Latin Small Letter a', '󠁡', 'tag-latin-small-letter-a', NULL, 'U+E0061', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6400, 2725, 1251, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2725, 5, 'Cancel Tag', '󠁿', 'cancel-tag', NULL, 'U+E007F', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6400, 2725, 1281, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2726, 5, 'Tag Latin Small Letter S', '󠁳', 'tag-latin-small-letter-s', NULL, 'U+E0073', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6401, 2726, 1269, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2726, 5, 'Tag Digit Eight', '󠀸', 'tag-digit-eight', NULL, 'U+E0038', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6401, 2726, 1210, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2727, 5, 'Tag Latin Small Letter D', '󠁤', 'tag-latin-small-letter-d', NULL, 'U+E0064', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6402, 2727, 1254, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2727, 5, 'Tag Latin Small Letter C', '󠁣', 'tag-latin-small-letter-c', NULL, 'U+E0063', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6402, 2727, 1253, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2728, 5, 'Tag Latin Small Letter R', '󠁲', 'tag-latin-small-letter-r', NULL, 'U+E0072', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6403, 2728, 1268, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2728, 5, 'Tag Digit Seven', '󠀷', 'tag-digit-seven', NULL, 'U+E0037', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6403, 2728, 1209, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2729, 5, 'Tag Latin Small Letter P', '󠁰', 'tag-latin-small-letter-p', NULL, 'U+E0070', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6404, 2729, 1266, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2729, 5, 'Tag Digit One', '󠀱', 'tag-digit-one', NULL, 'U+E0031', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6404, 2729, 1203, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2730, 5, 'Tag Latin Small Letter O', '󠁯', 'tag-latin-small-letter-o', NULL, 'U+E006F', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6405, 2730, 1265, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2730, 5, 'Tag Latin Small Letter I', '󠁩', 'tag-latin-small-letter-i', NULL, 'U+E0069', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6405, 2730, 1259, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2731, 5, 'Tag Latin Small Letter J', '󠁪', 'tag-latin-small-letter-j', NULL, 'U+E006A', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6406, 2731, 1260, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2731, 5, 'Tag Latin Small Letter Z', '󠁺', 'tag-latin-small-letter-z', NULL, 'U+E007A', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6406, 2731, 1276, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2732, 5, 'Tag Digit Nine', '󠀹', 'tag-digit-nine', NULL, 'U+E0039', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6407, 2732, 1211, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2732, 5, 'Tag Digit Three', '󠀳', 'tag-digit-three', NULL, 'U+E0033', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6407, 2732, 1205, 1);
 
-INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2733, 5, 'Tag Latin Small Letter T', '󠁴', 'tag-latin-small-letter-t', NULL, 'U+E0074', 1, 1, 0, 0, 0, 0);
-INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6408, 2733, 1270, 1);
+INSERT INTO emoji (emoji_id,emoji_version_id,emoji_name,emoji_character,emojipedia_url_ext,emojipedia_category,codepoint_string,num_codepoints,hasComponent,hasModifier,hasModifierBase,appearance_differs_flag,unicode_not_recommended) VALUES (2733, 5, 'Tag Latin Small Letter Y', '󠁹', 'tag-latin-small-letter-y', NULL, 'U+E0079', 1, 1, 0, 0, 0, 0);
+INSERT INTO emoji_codepoints (emoji_codepoint_id,emoji_id,codepoint_id,sequence_index) VALUES (6408, 2733, 1275, 1);
 

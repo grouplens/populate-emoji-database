@@ -10,13 +10,13 @@ PLATFORMS = [('apple','Apple'),
 PLATFORM_VERSIONS = [('Apple iOS 11.2','iOS 11.2',True),
                      ('Apple iOS 11.1','iOS 11.1',True),
                      ('Apple iOS 10.3','iOS 10.3',True),
-                     ('Apple iOS 10.2','iOS 10.2',False),
-                     ('Apple iOS 10.0','iOS 10.0',False),
+                     ('Apple iOS 10.2','iOS 10.2',True),
+                     ('Apple iOS 10.0','iOS 10.0',True),
                      ('Apple iOS 9.3','iOS 9.3',True),
-                     ('Apple iOS 9.1','iOS 9.1',False),
-                     ('Apple iOS 9.0','iOS 9.0',False),
-                     ('Apple iOS 8.3','iOS 8',False),
-                     ('Apple iOS 6.0','iOS 6/7',False),
+                     ('Apple iOS 9.1','iOS 9.1',True),
+                     ('Apple iOS 9.0','iOS 9.0',True),
+                     ('Apple iOS 8.3','iOS 8',True),
+                     ('Apple iOS 6.0','iOS 6/7',True),
                      ('Apple iOS 5.0','iOS 5',False),
 
                      ('Google Android 8.1','Android 8.1',True),
@@ -52,7 +52,8 @@ PLATFORM_VERSIONS = [('Apple iOS 11.2','iOS 11.2',True),
                      ('Samsung TouchWiz 5.1','Galaxy S5/S6 (Not Updated)',False),       # Previously named: Samsung Galaxy S5
                      ('Samsung TouchWiz 2.0','Galaxy S4 (Not Updated)',False), # On Website: TouchWiz Nature UX 2, Previously named: Samsung Galaxy S4
 
-                     ('Twitter Twemoji 2.4','Web Client (Twemoji)',True),
+                     ('Twitter Twemoji 2.5','Web Client (Twemoji)',True),
+                     ('Twitter Twemoji 2.4','Twemoji 2.4',False),
                      ('Twitter Twemoji 2.3','Twemoji 2.3',False), # Ignore Twitter versions since will always be
                      ('Twitter Twemoji 2.2.3','Twemoji 2.2.3',False), # using most recent
                      ('Twitter Twemoji 2.2.2','Twemoji 2.2.2',False),

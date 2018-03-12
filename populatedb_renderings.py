@@ -10,6 +10,10 @@ cnx = mysql.connector.connect(user=db_config['user'],
                               password=db_config['password'],
                               database=db_config['database'])
 cursor = cnx.cursor()
+# Enforce UTF-8 for the connection.
+cursor.execute('SET NAMES utf8mb4')
+cursor.execute("SET CHARACTER SET utf8mb4")
+cursor.execute("SET character_set_connection=utf8mb4")
 
 # Write all data definition queries to a file to be able to recreate the database without scraping
 with open('database/data/insert_renderings.sql','w', encoding='utf-8') as db_file:

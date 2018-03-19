@@ -17,8 +17,6 @@ cursor.execute("SET character_set_connection=utf8mb4")
 
 # Write all data definition queries to a file to be able to recreate the database without scraping
 with open('database/data/insert_emoji.sql','w', encoding='utf-8') as db_file:
-    print('USE emojistudy_db;',file=db_file)
-    print(file=db_file)
 
     # -------- EMOJI VERSIONS --------
     print("Inserting EMOJI VERSIONS")

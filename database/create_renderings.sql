@@ -1,5 +1,3 @@
-USE emojistudy_db;
-
 DROP TABLE IF EXISTS renderings;
 DROP TABLE IF EXISTS platform_versions;
 DROP TABLE IF EXISTS platforms;

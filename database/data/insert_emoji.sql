@@ -1,5 +1,3 @@
-USE emojistudy_db;
-
 INSERT INTO emoji_versions (emoji_version_id,emoji_version,emoji_version_name,emojipedia_url_ext) VALUES (1, 1.0, 'Emoji 1.0', 'emoji-1.0');
 INSERT INTO emoji_versions (emoji_version_id,emoji_version,emoji_version_name,emojipedia_url_ext) VALUES (2, 2.0, 'Emoji 2.0', 'emoji-2.0');
 INSERT INTO emoji_versions (emoji_version_id,emoji_version,emoji_version_name,emojipedia_url_ext) VALUES (3, 3.0, 'Emoji 3.0', 'emoji-3.0');
